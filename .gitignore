@@ -1,0 +1,14 @@
+
+.git/
+
+.class
+.settings/
+.classpath
+.project
+
+bin/
+
+
+.DS_Store
+Thumbs.db
+
