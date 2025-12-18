@@ -1,6 +1,6 @@
 package areaofcircle;
 // program to calculate area of circle
-public class areaofcircle {
+public class Areaofcircle {
 		  // Main function to execute program
 	    public static void main(String[] args) {
 	    	int radius=5;

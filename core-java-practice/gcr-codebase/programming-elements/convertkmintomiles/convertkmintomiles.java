@@ -1,6 +1,6 @@
 package convertkmintomiles;
 //program to convert km into miles
-public class convertkmintomiles {
+public class ConvertKmIntoMiles {
 	  // Main function to execute program
     public static void main(String[] args) {
     	int kilometers=5;

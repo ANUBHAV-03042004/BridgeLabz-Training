@@ -1,6 +1,6 @@
 package celsiustofahrenheitconversion;
 // program to convert celsius into fahrenheit
-public class celsiustofahrenheitconversion {
+public class CelsiustoFahrenheitConversion {
 	  // Main function to execute program
     public static void main(String[] args) {
     	int celsius=5;

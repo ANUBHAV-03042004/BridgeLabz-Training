@@ -1,6 +1,6 @@
 package addtwonumber;
 // program to add 2 numbers
-public class addtwonumbers {
+public class Addtwonumbers {
 //	main function to execute program
 public static void main (String args[])
 {

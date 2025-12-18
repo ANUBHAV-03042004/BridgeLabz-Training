@@ -1,6 +1,6 @@
 package perimeterofarectangle;
 //program to check perimeter of a rectangle
-public class perimeterofarectangle {
+public class PerimeterOfARectangle {
 	  // Main function to execute program
     public static void main(String[] args) {
     	int length=5,width=10;

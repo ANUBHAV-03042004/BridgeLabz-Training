@@ -1,6 +1,6 @@
 package averageofthreenumbers;
 //program to calculate average of three numbers
-public class calculateaverageofthreenumbers {
+public class CalculateAverageOfThreeNumbers {
 	  // Main function to execute program
     public static void main(String[] args) {
     	double firstnumber=5.0,secondnumber=10.0,thirdnumber=23.0;

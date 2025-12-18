@@ -1,6 +1,6 @@
 package calculatesimpleinterest;
 // program to calculate simple interest
-public class calculatesimpleinterest {
+public class CalculateSimpleInterest {
 	  // Main function to execute program
     public static void main(String[] args) {
     	int principle=500;

@@ -1,6 +1,6 @@
 package volumeofcylinder;
 // program to calculate volume of cylinder
-public class volumeofcylinder {
+public class VolumeOfCylinder {
 		  // Main function to execute program
 	    public static void main(String[] args) {
 	    	int radius=5,height=10;

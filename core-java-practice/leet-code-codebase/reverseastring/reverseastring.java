@@ -1,6 +1,6 @@
 package reverseastring;
 // program to reverse a string
-public class reverseastring {
+public class ReverseAString {
 //		main function to execute program
 	public static void main (String args[])
 	{

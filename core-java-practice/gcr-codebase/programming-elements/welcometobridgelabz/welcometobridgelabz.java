@@ -1,6 +1,6 @@
 package welcometobridgelabz;
 
-public class welcometobridgelabz {
+public class WelcomeToBridgelabz {
 
 public static void main (String args[])
 {

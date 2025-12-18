@@ -1,7 +1,7 @@
 package checkpalindrome;
 
 // Program to check whether a number is palindrome or not
-public class checkpalindrome {
+public class CheckPalindrome {
 
     // Main function to execute program
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
 package helloworld;
 // program to print hello world
-public class helloworld {
+public class HelloWorld {
 //	main function to execute program
 public static void main (String args[])
 {

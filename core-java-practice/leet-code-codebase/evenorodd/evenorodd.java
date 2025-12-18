@@ -1,6 +1,6 @@
 package evenorodd;
 //program to check even or odd
-public class evenorodd {
+public class EvenOrOdd {
 	  // Main function to execute program
     public static void main(String[] args) {
     	int evenorodd=32;

@@ -1,7 +1,7 @@
 package powercalculation;
 //program to take two number as input a base and an exponent and print the result of base raised to the exponent (without using loops and conditionals)
 import java.util.*;
-public class powercalculation {
+public class PowerCalculation {
 	  // Main function to execute program
     public static void main(String[] args) {
     	int base=2,exponent=5;
