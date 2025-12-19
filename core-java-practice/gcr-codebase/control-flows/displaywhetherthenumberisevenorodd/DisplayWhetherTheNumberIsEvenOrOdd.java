@@ -11,6 +11,5 @@ for(int i=1;i<=number;i++)
 	if(i%2==0) System.out.printf("%d is even\n",i);
 	else System.out.printf("%d is odd\n",i);
 }
-
 	}
 }
