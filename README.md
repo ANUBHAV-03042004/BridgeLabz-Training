@@ -29,6 +29,11 @@ Branch: `core-java-practice`
   ➡️ Uploaded solutions in the `control-flows` folder
   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flows)
 
+  - 📍 **20/12/25**  
+  ➡️ Completed **Level 1, Level 2** of `Arrays`  
+  ➡️ Uploaded solutions in the `arrays` folder
+  🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays)
+
 ---
 
 ## 📌 Highlights
