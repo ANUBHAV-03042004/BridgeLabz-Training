@@ -34,6 +34,11 @@ Branch: `core-java-practice`
   ➡️ Uploaded solutions in the `arrays` folder
   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/arrays)
 
+- 📍 **22/12/25**  
+  ➡️ Completed **Level 1, Level 2, Level 3** of `Strings`  
+  ➡️ Uploaded solutions in the `strings` folder
+  🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/strings)
+
 ---
 
 ## 📌 Highlights
