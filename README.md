@@ -39,6 +39,15 @@ Branch: `core-java-practice`
   ➡️ Uploaded solutions in the `strings` folder
   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/strings)
 
+
+- 📍 **23/12/25**  
+  ➡️ Completed **Level 1, Level 2, Level 3** of `Methods` and `String Practice Problem and Built In Functions`
+  ➡️ Uploaded solutions in the `methods` folder
+  ➡️ Uploaded solutions in the `string-practice-problem` folder
+  ➡️ Uploaded solutions in the `Builtinfunctions` folder
+  🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/method)
+  🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/strings/string-practice-problem)
+  🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/method/builtinfunctions)
 ---
 
 ## 📌 Highlights
