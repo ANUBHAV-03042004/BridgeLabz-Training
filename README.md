@@ -60,13 +60,13 @@ $  **core-java-practice**
 
  - 📍 **24/12/25**
  
-  ➡️ Completed **Level 1, Level 2** of `Java Class and Object` and **Level 1** of `Java Constructor , Class vs Instance Variable , Access Modifiers`
+   ➡️ Completed **Level 1, Level 2** of `Java Class and Object` and **Level 1** of `Java Constructor , Class vs Instance Variable , Access Modifiers`
   
-  ➡️ Uploaded solutions in the `oops branch's class and object folder` folder
-  🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/classandobject)
+   ➡️ Uploaded solutions in the `oops branch's class and object folder` folder
+   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/classandobject)
   
-  ➡️ Uploaded solutions in the `javaconstructorsinstancevsclassvariablesaccessmodifiers` folder
-  🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/javaconstructorsinstancevsclassvariablesaccessmodifiers)
+   ➡️ Uploaded solutions in the `javaconstructorsinstancevsclassvariablesaccessmodifiers` folder
+   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/javaconstructorsinstancevsclassvariablesaccessmodifiers)
   
 ---
 
