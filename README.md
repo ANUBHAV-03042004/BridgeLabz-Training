@@ -6,7 +6,8 @@ Branch: `core-java-practice`
 ---
 
 ## 📂 Repository Link
-🔗 [BridgeLabz-Training (core-java-practice)](https://github.com/ANUBHAV-03042004/BridgeLabz-Training)
+🔗 [BridgeLabz-Training (core-java-practice)](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/core-java-practice)
+🔗 [BridgeLabz-Training (oops-practice)](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/oops-practice)
 
 ---
 
@@ -14,7 +15,7 @@ Branch: `core-java-practice`
 $  **core-java-practice**
 
 - 📍 **16/12/25**  
-  ➡️ Created repository **BridgeLabz-Training** and branch **core-java-practice**  
+  ➡️ Created repository **BridgeLabz-Training** and branch **core-java-practice**
   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/core-java-practice)
 
 - 📍 **17/12/25**  
@@ -24,6 +25,7 @@ $  **core-java-practice**
 
 - 📍 **18/12/25**  
   ➡️ Completed practice questions and updated them in the `programming-elements` folder
+   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flows)
 
 - 📍 **19/12/25**  
   ➡️ Completed **Level 1, Level 2, Level 3** of `Control-Flows`  
@@ -57,13 +59,14 @@ $  **core-java-practice**
  $ **oops-practice**
 
  - 📍 **24/12/25**  
-  ➡️ Completed **Level 1, Level 2** of `Java Class and Object` and **Level 1** of ` Java Constructor , Class vs Instance Variable , Access Modifiers`
+  ➡️ Completed **Level 1, Level 2** of `Java Class and Object` and **Level 1** of `Java Constructor , Class vs Instance Variable , Access Modifiers`
   
   ➡️ Uploaded solutions in the `oops branch's class and object folder` folder
   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/classandobject)
   
   ➡️ Uploaded solutions in the `javaconstructorsinstancevsclassvariablesaccessmodifiers` folder
   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/javaconstructorsinstancevsclassvariablesaccessmodifiers)
+  
 ---
 
 ## 📌 Highlights
