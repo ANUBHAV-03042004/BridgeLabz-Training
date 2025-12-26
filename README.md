@@ -58,7 +58,8 @@ $  **core-java-practice**
 
  $ **oops-practice**
 
- - 📍 **24/12/25**  
+ - 📍 **24/12/25**
+ 
   ➡️ Completed **Level 1, Level 2** of `Java Class and Object` and **Level 1** of `Java Constructor , Class vs Instance Variable , Access Modifiers`
   
   ➡️ Uploaded solutions in the `oops branch's class and object folder` folder
