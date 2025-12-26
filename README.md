@@ -11,6 +11,7 @@ Branch: `core-java-practice`
 ---
 
 ## 📅 Progress Timeline
+$  **core-java-practice**
 
 - 📍 **16/12/25**  
   ➡️ Created repository **BridgeLabz-Training** and branch **core-java-practice**  
@@ -51,10 +52,22 @@ Branch: `core-java-practice`
   
   ➡️ Uploaded solutions in the `Builtinfunctions` folder
   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/method/builtinfunctions)
+
+
+ $ **oops-practice**
+
+ - 📍 **24/12/25**  
+  ➡️ Completed **Level 1, Level 2** of `Java Class and Object` and **Level 1** of ` Java Constructor , Class vs Instance Variable , Access Modifiers`
+  
+  ➡️ Uploaded solutions in the `oops branch's class and object folder` folder
+  🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/classandobject)
+  
+  ➡️ Uploaded solutions in the `javaconstructorsinstancevsclassvariablesaccessmodifiers` folder
+  🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/javaconstructorsinstancevsclassvariablesaccessmodifiers)
 ---
 
 ## 📌 Highlights
-- Organized practice problems into **structured folders** (`leet-code-codebase`, `gcr-codebase`, `control-flows`)  
+- Organized practice problems into **structured folders** (`leet-code-codebase`, `gcr-codebase`, `scenario-based`)  
 - Step-by-step progress tracking with dates for better visibility  
 - Repository serves as a **learning log** for Java fundamentals and problem-solving
 
