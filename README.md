@@ -1,11 +1,10 @@
 # 🚀 BridgeLabz-Training
 
 A repository to track my **Core Java Practice** journey and progress.  
-Branch: `core-java-practice`
 
 ---
 
-## 📂 Repository Link
+## 📂 Branch Link
 🔗 [BridgeLabz-Training (core-java-practice)](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/core-java-practice)
 🔗 [BridgeLabz-Training (oops-practice)](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/oops-practice)
 
