@@ -1,12 +1,14 @@
 # 🚀 BridgeLabz-Training
 
-A repository to track my **Core Java Practice** journey and progress.  
+A repository to track my **Java** journey and progress.  
 
 ---
 
 ## 📂 Branch Link
 🔗 [BridgeLabz-Training (core-java-practice)](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/core-java-practice)
 🔗 [BridgeLabz-Training (oops-practice)](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/oops-practice)
+🔗 [BridgeLabz-Training (dsa-practice)](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/dsa-practice)
+
 
 ---
 
@@ -61,8 +63,37 @@ $  **core-java-practice**
  
    ➡️ Completed **Level 1, Level 2** of `Java Class and Object` and **Level 1** of `Java Constructor , Class vs Instance Variable , Access Modifiers`
   
-   ➡️ Uploaded solutions in the `oops branch's class and object folder` folder
+   ➡️ Uploaded solutions in the `oops branch's class and object` folder
    🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/classandobject)
+  
+   ➡️ Uploaded solutions in the `javaconstructorsinstancevsclassvariablesaccessmodifiers` folder
+   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/javaconstructorsinstancevsclassvariablesaccessmodifiers)
+
+ - 📍 **26/12/25**
+ 
+   ➡️ Completed `this , static ,  final , instance of keywords` , `object design principles` , `inheritance` and `encapsulation , polymorphism , abstraction , interface`
+  
+   ➡️ Uploaded solutions in the `thisstaticfinalkeywordandinstanceofoperator` folder
+   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/thisstaticfinalkeywordandinstanceofoperator)
+  
+   ➡️ Uploaded solutions in the `objectorienteddesignprinciples` folder
+   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/objectorienteddesignprinciples)
+     
+   ➡️ Uploaded solutions in the `inheritance` folder
+   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/inheritance)
+  
+   ➡️ Uploaded solutions in the `encapsulationpolymorphisminterfaceandabstractclasss` folder
+   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/encapsulationpolymorphisminterfaceandabstractclass)
+
+
+$ **dsa-practice**
+  
+ - 📍 **29/12/25**
+ 
+   ➡️ Completed `Linked List` and `Stack , Queue , Hashmap and Hashing Function`
+  
+   ➡️ Uploaded solutions in the `dsa branch's linked list` folder
+   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/linkedlist)
   
    ➡️ Uploaded solutions in the `javaconstructorsinstancevsclassvariablesaccessmodifiers` folder
    🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/javaconstructorsinstancevsclassvariablesaccessmodifiers)
