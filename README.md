@@ -95,8 +95,8 @@ $ **dsa-practice**
    ➡️ Uploaded solutions in the `dsa branch's linked list` folder
    🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/linkedlist)
   
-   ➡️ Uploaded solutions in the `javaconstructorsinstancevsclassvariablesaccessmodifiers` folder
-   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/javaconstructorsinstancevsclassvariablesaccessmodifiers)
+   ➡️ Uploaded solutions in the `stackqueuehashmapandhashfunction` folder
+   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/stackqueuehashmapandhashfunction)
   
 ---
 
