@@ -1,4 +1,4 @@
-package circularlinkedlist.roundrobinscheduling;
+package roundrobinscheduling;
 
 class Process {
     int pid, burstTime, priority;
