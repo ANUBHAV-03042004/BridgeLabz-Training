@@ -1,22 +1,22 @@
 package employeemanagementsystem;
 
-public class Main {
+public class MainFunction {
     public static void main(String[] args) {
         // Creating Employee objects
-        Employee emp1 = new Employee(101, "Alice", "Developer");
-        Employee emp2 = new Employee(102, "Bob", "Manager");
+        Employees emp1 = new Employees(101, "Alice", "Developer");
+        Employees emp2 = new Employees(102, "Bob", "Manager");
 
         // Display static company name and total employee count
-        Employee.displayCompanyName();
-        Employee.displayTotalEmployees();
+        Employees.displayCompanyName();
+        Employees.displayTotalEmployees();
 
         System.out.println("\n--- Employee 1 Details ---");
-        Employee.showIfEmployee(emp1);
+        Employees.showIfEmployee(emp1);
 
         System.out.println("\n--- Employee 2 Details ---");
-        Employee.showIfEmployee(emp2);
+        Employees.showIfEmployee(emp2);
 
         System.out.println("\n--- Invalid Object Check ---");
-        Employee.showIfEmployee("NotAnEmployee");
+        Employees.showIfEmployee("NotAnEmployee");
     }
 }

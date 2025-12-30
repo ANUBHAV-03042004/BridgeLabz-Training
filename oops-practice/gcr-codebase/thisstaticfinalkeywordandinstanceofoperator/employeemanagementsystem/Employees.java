@@ -1,6 +1,6 @@
 package employeemanagementsystem;
 
-public class Employee {
+public class Employees {
     // Static: shared among all employees
     private static String companyName = "TechNova Pvt. Ltd.";
     private static int totalEmployees = 0;
@@ -13,7 +13,7 @@ public class Employee {
     private String designation;
 
     // Constructor using 'this' to resolve ambiguity
-    public Employee(int id, String name, String designation) {
+    public Employees(int id, String name, String designation) {
         this.id = id;
         this.name = name;
         this.designation = designation;
@@ -52,9 +52,9 @@ public class Employee {
 
     // Static method to check and show employee details using instanceof
     public static void showIfEmployee(Object obj) {
-        if (obj instanceof Employee) {
+        if (obj instanceof Employees) {
             System.out.println("This is a valid Employee object.");
-            ((Employee) obj).displayEmployeeDetails();
+            ((Employees) obj).displayEmployeeDetails();
         } else {
             System.out.println("This is NOT an Employee object.");
         }

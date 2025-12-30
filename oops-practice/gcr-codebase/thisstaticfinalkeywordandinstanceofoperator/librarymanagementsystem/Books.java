@@ -1,6 +1,6 @@
 package librarymanagementsystem;
 
-public class Book {
+public class Books {
     // Static: Shared across all book instances
     private static String libraryName = "City Central Library";
 
@@ -12,7 +12,7 @@ public class Book {
     private String author;
 
     // Constructor using 'this' to avoid ambiguity
-    public Book(String isbn, String title, String author) {
+    public Books(String isbn, String title, String author) {
         this.isbn = isbn;         // 'this' is optional here but good for clarity
         this.title = title;
         this.author = author;
@@ -47,7 +47,7 @@ public class Book {
     public static void showIfBook(Object obj) {
         if (obj instanceof Book) {
             System.out.println("This object is a Book. Showing details:");
-            Book book = (Book) obj;
+            Books book = (Books) obj;
             book.displayBookDetails();
         } else {
             System.out.println("This object is not a Book.");
