@@ -7,14 +7,14 @@ public class EmployeeWageComputationProblem {
     String Empname;
     int wageperhour = 20;
     int totalwage = 0;
-
+// function to check attendance
     public String checkattendance(String Empname) {
         int attendance_value = random.nextInt(2);
         String attendance = (attendance_value == 1) ? "Present" : "Absent";
         System.out.println(Empname + " is " + attendance);
         return attendance;
     }
-
+// function to find employee status
     public int findEmployeeStatus(String Empname, String attendance) {
         int status_value = random.nextInt(2);
         String empstatus="";
@@ -34,7 +34,7 @@ public class EmployeeWageComputationProblem {
         System.out.println(empstatus);
         return EmployeehoursWorked;
     }
-
+// function to calculate daily employee wage
     public void dailyEmployeeWage(String attendance, int hoursworked) {
         if (attendance.equalsIgnoreCase("present")) {
             int wage = wageperhour * hoursworked;
@@ -42,7 +42,7 @@ public class EmployeeWageComputationProblem {
             System.out.println(Empname + " will get " + wage + " rs. as daily wage.");
         }
     }
-
+// function to calculate monthly wage
     public String calculateWageForAMonth() {
         return Empname + " will get " + totalwage + " rs. as Monthly wage.";
     }
