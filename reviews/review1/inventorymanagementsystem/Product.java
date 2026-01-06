@@ -1,4 +1,4 @@
-package inventorymanagementsystem;
+package reviews.review1.inventorymanagementsystem;
 
 public class Product {
 int productId;

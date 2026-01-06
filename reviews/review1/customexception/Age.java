@@ -1,4 +1,4 @@
-package customexception;
+package reviews.review1.customexception;
 
 public class Age{
 public  void checkage(int age) throws CustomException {

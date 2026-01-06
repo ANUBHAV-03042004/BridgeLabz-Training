@@ -1,4 +1,4 @@
-package methodoverloadingandoverriding;
+package reviews.review1.methodoverloadingandoverriding;
 
 public class Main extends MethodOverloadingAndOverriding{
 	Main(int age) {

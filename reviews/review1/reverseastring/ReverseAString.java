@@ -1,4 +1,4 @@
-package reverseastring;
+package reviews.review1.reverseastring;
 
 
 public class ReverseAString {

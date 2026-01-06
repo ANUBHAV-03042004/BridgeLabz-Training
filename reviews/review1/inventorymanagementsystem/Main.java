@@ -1,4 +1,4 @@
-package inventorymanagementsystem;
+package reviews.review1.inventorymanagementsystem;
 
 public class Main {
 public static void main(String args[]) {
@@ -7,6 +7,7 @@ public static void main(String args[]) {
 	Inventory inventory= new Inventory();
 	inventory.addProduct(001,Maggie);
 	inventory.addProduct(002,Coffee);
+	inventory.displayStock();
 System.out.println("Total Price:"+inventory.Purchase(001,5));
 System.out.println("Total Price:"+inventory.Purchase(001,2));
 	inventory.updateProduct(001,12);

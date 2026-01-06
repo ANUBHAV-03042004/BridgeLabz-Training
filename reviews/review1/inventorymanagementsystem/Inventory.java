@@ -1,4 +1,4 @@
-package inventorymanagementsystem;
+package reviews.review1.inventorymanagementsystem;
 import java.util.*;
 class OutOfStockException extends Exception{
 
@@ -31,6 +31,8 @@ PriorityQueue<Product> stock = new PriorityQueue<>(
 public void addProduct(int productId,Product product) {
 	inventory.put(productId,product);
 	stock.offer(product);
+}
+public void displayStock() {
 	for(Product p:stock)
 	{
 		System.out.println(p.quantity);
