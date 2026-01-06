@@ -8,6 +8,9 @@ A repository to track my **Java** journey and progress.
 🔗 [BridgeLabz-Training (core-java-practice)](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/core-java-practice)
 🔗 [BridgeLabz-Training (oops-practice)](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/oops-practice)
 🔗 [BridgeLabz-Training (dsa-practice)](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/dsa-practice)
+🔗 [BridgeLabz-Training (collection-practice)](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/collection-practice)
+🔗 [BridgeLabz-Training (Reviews)](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/reviews)
+
 
 
 ---
@@ -97,6 +100,68 @@ $ **dsa-practice**
   
    ➡️ Uploaded solutions in the `stackqueuehashmapandhashfunction` folder
    🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/stackqueuehashmapandhashfunction)
+
+  
+ - 📍 **30/12/25**
+ 
+   ➡️ Completed `Sorting Algorithm` and `Employee Wage Computation Problem`
+  
+   ➡️ Uploaded solutions in the `dsa branch's sorting algorithm` folder
+   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/sortingalgorithm)
+  
+   ➡️ Uploaded solutions in the `oops-practice's employee wage computation problem` folder
+   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based/employeewagecomputationproblem)
+
+ 
+ - 📍 **31/12/25**
+ 
+   ➡️ Completed `String builder, String Buffer, File Reader, Input Stream Reader` and `Linear Search and Binary Search`
+  
+   ➡️ Uploaded solutions in the `dsa branch's stringbufferstringbuilderinputstreamreaderlinearsearchandbinarysearch` folder
+   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/stringbufferstringbuilderinputstreamreaderlinearsearchandbinarysearch)
+
+ 
+ - 📍 **01/01/26**
+ 
+   ➡️ Completed `Algorithm's Runtime Analysis` and `Big-O Notation`
+  
+   ➡️ Uploaded solutions in the `dsa branch's algorithmsruntimeanalysisandbigonotation` folder
+   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/algorithmsruntimeanalysisandbigonotation)
+
+
+ - 📍 **02/01/26**
+ 
+   ➡️ Completed `Scenario-based Problem`
+  
+   ➡️ Uploaded solutions in the `dsa branch's scenario-based` folder
+   ➡️ Strings-Sentence Formatter
+   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/texteditor)
+   ➡️ Paragraph Analyzer
+   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/paragraphanalysis)
+
+$ **collection-practice**
+
+ - 📍 **03/01/26**
+ 
+   ➡️ Completed `Java Generics`
+  
+   ➡️ Uploaded solutions in the `collection branch's generics` folder
+   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/generics)
+   
+
+ - 📍 **06/01/26**
+ 
+   ➡️ Completed `Collections`
+  
+   ➡️ Uploaded solutions in the `collection branch's collections` folder
+   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/collections)
+  
+$ **Reviews**  
+
+ - 📍 **05/01/26**
+  
+   ➡️ Uploaded solutions of Review 1 in the `review's branch review1` folder
+   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/reviews/reviews/review1)
   
 ---
 
