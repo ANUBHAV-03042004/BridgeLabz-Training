@@ -155,6 +155,32 @@ $ **collection-practice**
   
    ➡️ Uploaded solutions in the `collection branch's collections` folder
    🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/collections)
+
+- 📍 **07/01/26**
+ 
+   ➡️ Completed `Streams`
+  
+   ➡️ Uploaded solutions in the `collection branch's streams` folder
+   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/streams)
+
+- 📍 **09/01/26**
+ 
+   ➡️ Completed `Exceptions`
+  
+   ➡️ Uploaded solutions in the `collection branch's exceptions` folder
+   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/exceptions)
+  
+ - 📍 **12/01/26 - 13/01/26**
+ 
+   ➡️ Completed `Regex and Junit`
+  
+   ➡️ Uploaded solutions in the `collection branch's regex and junit` folder
+   ➡️ Regex
+   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/regexandjunit/regex)
+   ➡️ Junit
+   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/regexandjunit/junit)
+
+
   
 $ **Reviews**  
 
