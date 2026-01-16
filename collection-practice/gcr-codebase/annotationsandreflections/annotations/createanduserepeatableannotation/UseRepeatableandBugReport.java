@@ -10,13 +10,13 @@ void runtask() {
 }
 public static void main(String args[]) throws NoSuchMethodException, SecurityException {
 	UseRepeatableandBugReport  URB= new UseRepeatableandBugReport ();
-//	URB.runtask();
+	URB.runtask();
 	Class<?> cls= UseRepeatableandBugReport.class;
 	Method m = cls.getDeclaredMethod("runtask", null);
-	if(m.isAnnotationPresent(BugReport.class)) {
-		BugReports[] bug= (BugReports[]) m.getAnnotationsByType(BugReport.class);
-	for(BugReports b : bug) {
-		System.out.println(b);
+	if(m.isAnnotationPresent(BugReports.class)) {
+		BugReport[] bug= m.getAnnotationsByType(BugReport.class);
+	for(BugReport b : bug) {
+		System.out.println(b.description());
 	}
 	}
 	
