@@ -27,8 +27,9 @@ class JsonSerialization{
 	 strBuilder.append("{");
 	 Class<?> cls= User.class;
 	 Field []fieldArray = cls.getDeclaredFields();
-	 ArrayList<String> jsonList = new ArrayList<>();
-	 jsonList.add("\n");
+	StringBuilder jsonList = new StringBuilder();
+	 jsonList.append("\n");
+	 int count =0;
 	 for(Field field : fieldArray) {
 		 if(field.isAnnotationPresent(JsonField.class)) {
 		  JsonField json= field.getAnnotation(JsonField.class);
@@ -36,8 +37,21 @@ class JsonSerialization{
 		  field.setAccessible(true); // used to let us use the private variable.
 		  try {
 			Object value = field.get(obj);
-			jsonList.add(key+" : "+value);
-			 jsonList.add("\n");
+			 jsonList.append("  \"").append(key).append("\": ");
+
+             if (value instanceof String) {
+                 jsonList.append("\"").append(value).append("\"");
+             } else {
+                 jsonList.append(value);
+             }
+             count++;
+             if (count < fieldArray.length) {
+                 jsonList.append(",");
+             }
+
+            
+             jsonList.append("\n");
+
 			
 		} catch (IllegalArgumentException e) {
 			e.printStackTrace();
