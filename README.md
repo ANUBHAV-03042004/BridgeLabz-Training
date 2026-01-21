@@ -192,8 +192,37 @@ $ **collection-practice**
    
    ➡️ Junit
      🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/regexandjunit/junit)
+   
+ - 📍 **14/01/26 - 17/01/26**
+ 
+   ➡️ Completed `Annotations and Reflections`
+  
+   ➡️ Uploaded solutions in the `collection branch's annotationsandreflections` folder
+   
+   ➡️ Annotation
+    🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/annotationsandreflections/annotations)
+   
+   ➡️ Reflection
+     🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/annotationsandreflections/reflection)
 
-
+ - 📍 **19/01/26**
+ 
+   ➡️ Completed `Scenario-based` questions
+  
+   ➡️ Uploaded solutions in the `scenario-based` folder
+   
+   ➡️ BookShelf – Library Organiz Story
+    🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/collection-practice/collection-practice/scenario-based/digitalbookshelf)
+   
+   ➡️ TrafficManager – Roundabout Vehicle Flow Story
+     🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/collection-practice/collection-practice/scenario-based/trafficmanager)
+   
+   ➡️ BrowserBuddy – Tab History Manager
+    🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/collection-practice/collection-practice/scenario-based/browserbuddytabhistorymanager)
+   
+   ➡️ ParcelTracker – Delivery Chain Management Story
+     🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/collection-practice/collection-practice/scenario-based/deliverychainmanagementsystem)
+   
   
 $ **Reviews**  
 
