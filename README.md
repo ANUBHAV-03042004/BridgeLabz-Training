@@ -222,6 +222,17 @@ $ **collection-practice**
    
    ➡️ ParcelTracker – Delivery Chain Management Story
      🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/collection-practice/collection-practice/scenario-based/deliverychainmanagementsystem)
+
+$ **io-programming-practice**
+
+ - 📍 **20/01/26 - 21/01/26**
+ 
+   ➡️ Completed `csv handling`
+  
+   ➡️ Uploaded solutions in the `io-programming-practice branch's csvhandling` folder
+   
+   ➡️ CSV handling
+    🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/io-programming-practice/io-programming-practice/gcr-codebase/csvhandling)
    
   
 $ **Reviews**  
