@@ -6,9 +6,13 @@ A repository to track my **Java** journey and progress.
 
 ## 📂 Branch Link
 🔗 [BridgeLabz-Training (core-java-practice)](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/core-java-practice)
+
 🔗 [BridgeLabz-Training (oops-practice)](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/oops-practice)
+
 🔗 [BridgeLabz-Training (dsa-practice)](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/dsa-practice)
+
 🔗 [BridgeLabz-Training (collection-practice)](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/collection-practice)
+
 🔗 [BridgeLabz-Training (Reviews)](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/reviews)
 
 
@@ -23,26 +27,30 @@ $  **core-java-practice**
   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/core-java-practice)
 
 - 📍 **17/12/25**  
-  ➡️ Pushed **5 questions** in `leet-code-codebase` folder  
+  ➡️ Pushed **5 questions** in `leet-code-codebase` folder
+  
   ➡️ Added **10 questions** in `gcr-codebase/programming-elements`
   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/programming-elements)
 
 - 📍 **18/12/25**  
   ➡️ Completed practice questions and updated them in the `programming-elements` folder
-   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flows)
-
-- 📍 **19/12/25**  
-  ➡️ Completed **Level 1, Level 2, Level 3** of `Control-Flows`  
-  ➡️ Uploaded solutions in the `control-flows` folder
   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flows)
 
+- 📍 **19/12/25**  
+  ➡️ Completed **Level 1, Level 2, Level 3** of `Control-Flows`
+  
+  ➡️ Uploaded solutions in the `control-flows` folder
+   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flows)
+
 - 📍 **20/12/25**  
-  ➡️ Completed **Level 1, Level 2** of `Arrays`  
+  ➡️ Completed **Level 1, Level 2** of `Arrays`
+  
   ➡️ Uploaded solutions in the `arrays` folder
   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/arrays)
 
 - 📍 **22/12/25**  
-  ➡️ Completed **Level 1, Level 2, Level 3** of `Strings`  
+  ➡️ Completed **Level 1, Level 2, Level 3** of `Strings`
+  
   ➡️ Uploaded solutions in the `strings` folder
   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/strings)
 
@@ -67,7 +75,7 @@ $  **core-java-practice**
    ➡️ Completed **Level 1, Level 2** of `Java Class and Object` and **Level 1** of `Java Constructor , Class vs Instance Variable , Access Modifiers`
   
    ➡️ Uploaded solutions in the `oops branch's class and object` folder
-   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/classandobject)
+    🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/classandobject)
   
    ➡️ Uploaded solutions in the `javaconstructorsinstancevsclassvariablesaccessmodifiers` folder
    🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/javaconstructorsinstancevsclassvariablesaccessmodifiers)
@@ -118,7 +126,8 @@ $ **dsa-practice**
    ➡️ Completed `String builder, String Buffer, File Reader, Input Stream Reader` and `Linear Search and Binary Search`
   
    ➡️ Uploaded solutions in the `dsa branch's stringbufferstringbuilderinputstreamreaderlinearsearchandbinarysearch` folder
-   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/stringbufferstringbuilderinputstreamreaderlinearsearchandbinarysearch)
+
+    🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/stringbufferstringbuilderinputstreamreaderlinearsearchandbinarysearch)
 
  
  - 📍 **01/01/26**
@@ -134,8 +143,10 @@ $ **dsa-practice**
    ➡️ Completed `Scenario-based Problem`
   
    ➡️ Uploaded solutions in the `dsa branch's scenario-based` folder
+   
    ➡️ Strings-Sentence Formatter
    🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/texteditor)
+   
    ➡️ Paragraph Analyzer
    🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/paragraphanalysis)
 
@@ -168,17 +179,19 @@ $ **collection-practice**
    ➡️ Completed `Exceptions`
   
    ➡️ Uploaded solutions in the `collection branch's exceptions` folder
-   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/exceptions)
+  🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/exceptions)
   
  - 📍 **12/01/26 - 13/01/26**
  
    ➡️ Completed `Regex and Junit`
   
    ➡️ Uploaded solutions in the `collection branch's regex and junit` folder
+   
    ➡️ Regex
-   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/regexandjunit/regex)
+    🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/regexandjunit/regex)
+   
    ➡️ Junit
-   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/regexandjunit/junit)
+     🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/regexandjunit/junit)
 
 
   
@@ -187,7 +200,7 @@ $ **Reviews**
  - 📍 **05/01/26**
   
    ➡️ Uploaded solutions of Review 1 in the `review's branch review1` folder
-   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/reviews/reviews/review1)
+    🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/reviews/reviews/review1)
   
 ---
 
