@@ -1,1 +1,6 @@
 /bin/
+.settings
+src
+.classpath
+.project
+README.md
