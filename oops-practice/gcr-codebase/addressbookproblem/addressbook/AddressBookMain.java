@@ -110,14 +110,20 @@ class AddressBookMain{
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Welcome To Address Book Program");
 		List<Contact> contacts = new ArrayList<>();
-		  contacts.add(new Contact("Anubhav", "Sharma", "123 Main Street", "Chhata", "UP", "281401", "9876543210", "anubhav@example.com"));
-	        contacts.add(new Contact("Priya", "Verma", "45 Park Lane", "Agra", "UP", "282001", "9123456780", "priya@example.com"));
+//		  contacts.add(new Contact("Anubhav", "Sharma", "123 Main Street", "Chhata", "UP", "281401", "9876543210", "anubhav@example.com"));
+//	        contacts.add(new Contact("Priya", "Verma", "45 Park Lane", "Agra", "UP", "282001", "9123456780", "priya@example.com"));
+		while(true) {
 		System.out.println("1 to add contact :");
 		System.out.println("2 to edit contact details :");
 		System.out.println("3 to delete a contact : ");
+		System.out.println("0 to exit : ");
 		System.out.println("Enter the number :");
 		int command = sc.nextInt();
+		boolean exit=false;
 		switch(command) {
+		case 0:
+			exit=true;
+			break;
 		case 1:
 			addContact(contacts,sc);
 			break;
@@ -127,8 +133,15 @@ class AddressBookMain{
 		case 3:
 			deleteContact(contacts,sc);
 			break;
+		default:
+			 System.out.println("Invalid choice, please try again.");
+			break;
 		}
-		
+		if(exit) {
+			System.out.println("Code exited");
+			break;
+		}
+		}
 		contacts.forEach(System.out::println);
 	}
 }
