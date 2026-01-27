@@ -1,4 +1,0 @@
-package addressbookproblem;
-class AddressBookMain{
-	
-}
