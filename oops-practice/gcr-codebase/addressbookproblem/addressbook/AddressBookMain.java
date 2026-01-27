@@ -89,14 +89,32 @@ class AddressBookMain{
 		return field +" Changed from "+fieldchangedfrom+" to "+fieldChanged;
 		
 	}
+	public static void deleteContact(List<Contact>contacts,Scanner sc) {
+		System.out.println("Enter the firstname of the person whose details you have to change :");
+		String firstname = sc.next();
+		System.out.println("Enter the secondname of the person whose details you have to change :");
+		String lastname=sc.next();
+		  boolean removed = contacts.removeIf(contact ->
+	        contact.firstName.equalsIgnoreCase(firstname) &&
+	        contact.lastName.equalsIgnoreCase(lastname)
+	    );
+
+	    if (removed) {
+	        System.out.println("Contact deleted successfully.");
+	    } else {
+	        System.out.println("Contact not found.");
+	    }
+
+	}
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Welcome To Address Book Program");
 		List<Contact> contacts = new ArrayList<>();
-//		  contacts.add(new Contact("Anubhav", "Sharma", "123 Main Street", "Chhata", "UP", "281401", "9876543210", "anubhav@example.com"));
-//	        contacts.add(new Contact("Priya", "Verma", "45 Park Lane", "Agra", "UP", "282001", "9123456780", "priya@example.com"));
-		System.out.println("1 to add customer :");
-		System.out.println("2 to edit customer details :");
+		  contacts.add(new Contact("Anubhav", "Sharma", "123 Main Street", "Chhata", "UP", "281401", "9876543210", "anubhav@example.com"));
+	        contacts.add(new Contact("Priya", "Verma", "45 Park Lane", "Agra", "UP", "282001", "9123456780", "priya@example.com"));
+		System.out.println("1 to add contact :");
+		System.out.println("2 to edit contact details :");
+		System.out.println("3 to delete a contact : ");
 		System.out.println("Enter the number :");
 		int command = sc.nextInt();
 		switch(command) {
@@ -105,6 +123,9 @@ class AddressBookMain{
 			break;
 		case 2:
 			 System.out.println(editContact(contacts,sc));
+			break;
+		case 3:
+			deleteContact(contacts,sc);
 			break;
 		}
 		
