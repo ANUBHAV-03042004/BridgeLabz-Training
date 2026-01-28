@@ -4,6 +4,7 @@ public class Utility {
 	public GoodsTransport parseDetails(String input) {
 		String transportDetails[]=input.split(":");
 		String TransportId = transportDetails[0];
+		
 		String TransportDate = transportDetails[1];
 		int TransportRating = Integer.parseInt(transportDetails[2]);
 		String TransportType = transportDetails[3];

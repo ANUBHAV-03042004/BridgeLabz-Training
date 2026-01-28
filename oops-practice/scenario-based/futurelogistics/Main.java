@@ -8,9 +8,16 @@ public static void main(String[] args) {
 	Utility utility = new Utility();
 	System.out.println("Enter the goods details : ");
 	String input= sc.next();
+	String transportDetails[]=input.split(":");
+	String TransportId = transportDetails[0];
+	if (!utility.validateTransportId(TransportId)) {
+	    return;
+	}
 	GoodsTransport goods = utility.parseDetails(input);
 	utility.findObjectType(goods);
 	
+	
+
 	
 }
 }
