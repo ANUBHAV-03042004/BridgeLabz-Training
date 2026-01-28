@@ -46,4 +46,12 @@ public class BrickTransport extends GoodsTransport {
 		float totalCharge = ((totalbrickcost)+ vehiclePrice.get(vehicle) + tax ) - discount;
 		return totalCharge;
 	}
+	public void showDetails() {
+		System.out.println("Transport ID :"+ transportId);
+		System.out.println("Transport Date : "+transportDate);
+		System.out.println("Transport Rating :"+ transportRating);
+		System.out.println("Brick Size : "+brickSize);
+		System.out.println("Brick Quantity : "+brickQuantity);
+		System.out.println("Brick Price : "+brickPrice);
+	}
 }

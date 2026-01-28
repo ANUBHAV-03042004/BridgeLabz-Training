@@ -1,7 +1,16 @@
 package futurelogistics;
 
+import java.util.Scanner;
+
 public class Main {
 public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+	Utility utility = new Utility();
+	System.out.println("Enter the goods details : ");
+	String input= sc.next();
+	GoodsTransport goods = utility.parseDetails(input);
+	utility.findObjectType(goods);
+	
 	
 }
 }

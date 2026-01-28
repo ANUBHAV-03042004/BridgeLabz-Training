@@ -35,8 +35,16 @@ public class Utility {
 	}
 	public String findObjectType(GoodsTransport goodsTransport) {
 		String objectType = "";
-		if( goodsTransport instanceof BrickTransport) objectType = "BrickTransport";
-		else if(goodsTransport instanceof TimberTransport) objectType = "TimberTransport";
+		if( goodsTransport instanceof BrickTransport) {
+			objectType = "BrickTransport";
+			((BrickTransport) goodsTransport).showDetails();
+			System.out.println(goodsTransport.calculateTotalCharge());
+		}
+		else if(goodsTransport instanceof TimberTransport) {
+			objectType = "TimberTransport";
+			((TimberTransport) goodsTransport).showDetails();
+			System.out.println(goodsTransport.calculateTotalCharge());
+		}
 		return objectType;
 	}
 }

@@ -56,4 +56,14 @@ public class TimberTransport extends GoodsTransport {
 	return totalCharge;
 	}
 	
+	public void showDetails() {
+		System.out.println("Transport ID :"+ transportId);
+		System.out.println("Transport Date : "+transportDate);
+		System.out.println("Transport Rating :"+ transportRating);
+		System.out.println("Timber Length : "+timberLength);
+		System.out.println("Timber Radius : "+timberRadius);
+		System.out.println("Timber Type : "+timberType);
+		System.out.println("Timber Price : "+timberPrice);
+	}
+	
 }
