@@ -10,7 +10,6 @@ class Contact {
     String phoneNumber;
     String email;
 
- 
     public Contact(String firstName, String lastName, String address, String city,
                    String state, String zip, String phoneNumber, String email) {
         this.firstName = firstName;
@@ -22,8 +21,9 @@ class Contact {
         this.phoneNumber = phoneNumber;
         this.email = email;
     }
-    
-public String toString() {
-	return  firstName+ " "+lastName+" address : "+address +" , "+city+" , "+state+" ZIP - "+zip+" phnNo. = "+phoneNumber+" @-> "+email;
-}
+
+    public String toString() {
+        return firstName + " " + lastName + " address : " + address + " , " + city + " , " + state +
+               " ZIP - " + zip + " phnNo. = " + phoneNumber + " @-> " + email;
+    }
 }
