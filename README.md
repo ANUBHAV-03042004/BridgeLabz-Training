@@ -280,7 +280,7 @@ $ **io-programming-practice**
     ➡️ Lambda Expression
     🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/java-8-and-its-features-practice/java-8-and-its-features/gcr-codebase/lambdaexpressions) 
     
-    ➡️ completed `Scenario-based problem of dsa-practice`
+    ➡️ completed `Scenario-based problem`
    
     ➡️ future logistics
     🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based/futurelogistics) 
