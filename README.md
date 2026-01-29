@@ -15,6 +15,8 @@ A repository to track my **Java** journey and progress.
 
 🔗 [BridgeLabz-Training (io-programming-practice)](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/io-programming-practice)
 
+🔗 [BridgeLabz-Training (java-8-and-its-features-practice)](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/java-8-and-its-features-practice)
+
 🔗 [BridgeLabz-Training (Reviews)](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/reviews)
 
 
@@ -235,7 +237,53 @@ $ **io-programming-practice**
    
    ➡️ CSV handling
     🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/io-programming-practice/io-programming-practice/gcr-codebase/csvhandling)
+
+  - 📍 **22/01/26 - 23/01/26**
+ 
+   ➡️ Completed `json handling`
+  
+   ➡️ Uploaded solutions in the `io-programming-practice branch's jsonhandling` folder
    
+   ➡️ Json handling
+    🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/io-programming-practice/io-programming-practice/gcr-codebase/jsondatahandling)
+
+  - 📍 **23/01/26**
+ 
+   ➡️ Completed `scenario-based questions`
+  
+   ➡️ Uploaded solutions in the `scenario-based` folder
+   
+   ➡️ Smart Checkout - Supermarket billing system.
+    🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/io-programming-practice/io-programming-practice/scenario-based/smartcheckoutsupermarketbillingsystem)
+    
+   ➡️ Exam Proctor - online exam review system.
+    🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/io-programming-practice/io-programming-practice/scenario-based/examproctoronlineexamreviewsystem)
+   
+  - 📍 **27/01/26**
+ 
+   ➡️ Completed `scenario-based`
+  
+   ➡️ Uploaded solutions in the `different branches scenatio-based` folder
+   
+   ➡️ lexical twist
+    🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/core-java-practice/core-java-practice/scenario-based/lexicaltwist) 
+    
+   ➡️ Aerovigil
+    🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/aerovigil) 
+
+  - 📍 **28/01/26**
+ 
+   ➡️ Created Java-8-and-its-features-practice branch and completed 'Lambda Expressions`
+  
+   ➡️ Uploaded solutions in the `Java-8-and-its-features-practice branch's gcr-codebase` folder
+   
+   ➡️ Lambda Expression
+    🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/java-8-and-its-features-practice/java-8-and-its-features/gcr-codebase/lambdaexpressions) 
+    
+   ➡️ completed `Scenario-based problem of dsa-practice`
+   
+   ➡️ future logistics
+    🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based/futurelogistics) 
   
 $ **Reviews**  
 
