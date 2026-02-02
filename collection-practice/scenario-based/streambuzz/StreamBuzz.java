@@ -1,6 +1,7 @@
 package streambuzz;
 
 import java.util.Dictionary;
+import java.util.Enumeration;
 import java.util.Hashtable;
 import java.util.List;
 import java.util.Scanner;
@@ -24,49 +25,66 @@ public class StreamBuzz {
 		
 	}
 	public double CalculateAverageLikes() {
-		double sum = 0.0d,avg=0.0d;
-		for(CreatorStats rec : CreatorStats.EngagementBoard) {
-			for(double weekLike: rec.getWeeklyLikes()) {
-				sum+= weekLike;
-			}
-			avg= sum/rec.getWeeklyLikes().length;
-		}
-		return avg = avg / CreatorStats.EngagementBoard.size();  
+	    double totalSum = 0.0d;
+	    int totalCount = 0;
+	    for(CreatorStats rec : CreatorStats.EngagementBoard) {
+	        for(double weekLike: rec.getWeeklyLikes()) {
+	            totalSum += weekLike;
+	            totalCount++;
+	        }
+	    }
+	    return totalSum / totalCount;
 	}
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+		boolean stop=false;
 		while(true) {
 		System.out.println("Enter choice : ");
 		int choice = sc.nextInt();
-		StreamBuzz sb = null;
+		  
 		switch(choice) {
 		case 1:
 			System.out.println("Enter name : ");
+			sc.nextLine();
 			String CreatorName = sc.nextLine();
-			System.out.println("Enter no. of weekly likes");
-			int no_ofWeeklyLikes = sc.nextInt();
-			double [] WeeklyLikes = new double [no_ofWeeklyLikes];
-			for(double i:WeeklyLikes) {
-				System.out.println("Enter values : ");
-				i=sc.nextDouble();
+			double [] WeeklyLikes = new double [4];
+			for(int i = 0; i < WeeklyLikes.length; i++) {
+			    System.out.println("Enter likes for week " + (i+1) + " : ");
+			    WeeklyLikes[i] = sc.nextDouble();
 			}
 			CreatorStats cs = new CreatorStats(CreatorName, WeeklyLikes);
-			sb= new StreamBuzz();
+			StreamBuzz sb= new StreamBuzz();
 			sb.RegisterCreator(cs);
-			System.out.println("Creator Registered Successfully.");
+			System.out.println("Creator Registered Successfully.\n");
 			break;
 			
 		case 2 :
-			System.out.println("Enter the threshold");
+			System.out.println("Enter the threshold :");
 			double threshold = sc.nextDouble();
 			Dictionary<String,Integer> dict;
+		   	sb = new StreamBuzz();
 			dict  = sb.GetTopPostCounts(CreatorStats.EngagementBoard, threshold);
-			
-			
-			
-			
+			if(dict.isEmpty()) {
+				System.out.println("No top-performing posts this week");
+				break;
+			}
+			Enumeration<String> enumerator = dict.keys();
+			while (enumerator.hasMoreElements()) {
+			    String key = enumerator.nextElement();
+			    System.out.println(key + " -> " + dict.get(key)); 
+			}
+            break;
+		case 3 :
+			sb = new StreamBuzz();
+			double average = sb.CalculateAverageLikes();
+			System.out.println("Overall average weekly likes: "+ average);
+			break;
+		case 4:
+		     System.out.println("Logging off — Keep Creating with StreamBuzz!");
+		     stop = true;
+		     break;	
 		}
-	
+	if(stop) break;
 		}
 		
 	}

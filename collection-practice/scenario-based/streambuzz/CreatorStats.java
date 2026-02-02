@@ -1,5 +1,6 @@
 package streambuzz;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class CreatorStats {
@@ -15,5 +16,6 @@ public String getCreatorName() {
 public double[] getWeeklyLikes() {
 	return WeeklyLikes;
 }
-public static List<CreatorStats> EngagementBoard ;
+public static List<CreatorStats> EngagementBoard =new ArrayList<>();
+;
 }
