@@ -336,42 +336,43 @@ $ **java-8-and-its-features-practice**
 
   - 📍 **03/02/26**
  
-    ➡️ Completed `Collectors` and scenario-based problem 'StreamBuzz `
+   ➡️ Completed `Collectors` and scenario-based problem 'StreamBuzz `
   
-    ➡️ Uploaded solutions in the `Java-8-and-its-features-practice branch's gcr-codebase` folder
+   ➡️ Uploaded solutions in the `Java-8-and-its-features-practice branch's gcr-codebase` folder
    
-    ➡️ Collectors
-    🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/java-8-and-its-features-practice/java-8-and-its-features/gcr-codebase/collectors) 
+   ➡️ Collectors
+   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/java-8-and-its-features-practice/java-8-and-its-features/gcr-codebase/collectors) 
     
-    ➡️ completed `Scenario-based problem` and uploaded solution in the `collection-practice scenario-based problem`
+   ➡️ completed `Scenario-based problem` and uploaded solution in the `collection-practice scenario-based problem`
    
-    ➡️ StreamBuzz
-    🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/collection-practice/collection-practice/scenario-based/streambuzz)
+   ➡️ StreamBuzz
+   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/collection-practice/collection-practice/scenario-based/streambuzz)
 
   
-  - 📍 **04/02/26**
+ - 📍 **04/02/26**
  
-    ➡️ Completed workshop on `Smart City Transport & Service Management System` and scenario-based problem `Ocean Fleet`
+   ➡️ Completed workshop on `Smart City Transport & Service Management System` and scenario-based problem `Ocean Fleet`
   
-    ➡️ Uploaded solutions in the `Java-8-and-its-features-practice branch's gcr-codebase` folder
+   ➡️ Uploaded solutions in the `Java-8-and-its-features-practice branch's gcr-codebase` folder
    
-    ➡️ Smart City Transport & Service Management System
-    🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/java-8-and-its-features-practice/java-8-and-its-features/gcr-codebase/workshop/smartcitytransportandservicemanagementsystem) 
+   ➡️ Smart City Transport & Service Management System
+   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/java-8-and-its-features-practice/java-8-and-its-features/gcr-codebase/workshop/smartcitytransportandservicemanagementsystem) 
     
-    ➡️ completed `Scenario-based problem` and uploaded it on collection-practice scenario-based problem
+   ➡️ completed `Scenario-based problem` and uploaded it on collection-practice scenario-based problem
    
-    ➡️ Ocean Fleet
-    🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/collection-practice/collection-practice/scenario-based/oceanfleet)
+   ➡️ Ocean Fleet
+   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/collection-practice/collection-practice/scenario-based/oceanfleet)
 
 $ **solution-designing-practice**
-    - 📍 **04/02/26**
+
+ - 📍 **04/02/26**
  
-    ➡️ Created solution-designing-practice branch and completed solution designing practice
+   ➡️ Created solution-designing-practice branch and completed solution designing practice
   
-    ➡️ Uploaded solutions in the `solution-designing-practice branch's gcr-codebase` folder
+   ➡️ Uploaded solutions in the `solution-designing-practice branch's gcr-codebase` folder
    
-    ➡️ Design Patterns
-    🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/solution-designing-practice/gcr-codebase/designpatterns) 
+   ➡️ Design Patterns
+   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/solution-designing-practice/gcr-codebase/designpatterns) 
 
    
 $ **Reviews**  
