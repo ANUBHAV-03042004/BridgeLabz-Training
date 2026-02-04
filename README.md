@@ -17,6 +17,8 @@ A repository to track my **Java** journey and progress.
 
 🔗 [BridgeLabz-Training (java-8-and-its-features-practice)](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/java-8-and-its-features-practice)
 
+🔗 [BridgeLabz-Training (solution-designing-practice)](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/solution-designing-practice)
+
 🔗 [BridgeLabz-Training (Reviews)](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/reviews)
 
 
@@ -269,7 +271,9 @@ $ **io-programming-practice**
     🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/core-java-practice/core-java-practice/scenario-based/lexicaltwist) 
     
     ➡️ Aerovigil
-    🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/aerovigil) 
+    🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/aerovigil)
+
+$ **java-8-and-its-features-practice**
 
   - 📍 **28/01/26**
  
@@ -283,8 +287,93 @@ $ **io-programming-practice**
     ➡️ completed `Scenario-based problem`
    
     ➡️ future logistics
-    🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based/futurelogistics) 
+    🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based/futurelogistics)
+    
+
+ - 📍 **29/01/26**
+ 
+    ➡️ Completed `Functional Interface` and `Flip-key logical Problem`
   
+    ➡️ Uploaded solutions in the `Java-8-and-its-features-practice branch's gcr-codebase` folder
+   
+    ➡️ Functional Interface
+    🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/java-8-and-its-features-practice/java-8-and-its-features/gcr-codebase/functionalinterface) 
+    
+    ➡️ completed `Scenario-based problem`
+   
+    ➡️ flip-key logical Problem
+    🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/core-java-practice/core-java-practice/scenario-based/flipkeylogicalproblem)
+  
+
+- 📍 **30/01/26**
+ 
+    ➡️ Completed Scenario based problem on `Factory Robot Hazard Analyzer` and Junit `Test Case`
+
+    ➡️ Uploaded solutions in the `dsa-practice scenario-based` folder
+   
+    ➡️ Factory Robot Hazard Analyzer
+    🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/factoryrobothazardanalyzer) 
+   
+    ➡️ Junit `Test case`
+    🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/collection-practice/collection-practice/scenario-based/testcase)
+
+- 📍 **02/02/26**
+ 
+    ➡️ Completed StreamAPI and scenario-based Problem `Food Delivering order routing system` and `online classroom attendance tracker`
+  
+    ➡️ Uploaded solutions in the `Java-8-and-its-features-practice branch's gcr-codebase` folder
+  
+    ➡️ StreamAPI
+    🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/java-8-and-its-features-practice/java-8-and-its-features/gcr-codebase/streamapi) 
+   
+    ➡️ Uploaded solutions in the `Java-8-and-its-features-practice branch's scenario-based` folder
+   
+    ➡️ Food Delivering order routing system
+    🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/java-8-and-its-features-practice/java-8-and-its-features/scenario-based/fooddeliveryorderroutingsystem) 
+   
+    ➡️ online classroom attendance tracker
+    🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/java-8-and-its-features-practice/java-8-and-its-features/scenario-based/onlineclassroomattendancetracker)
+
+  - 📍 **03/02/26**
+ 
+    ➡️ Completed `Collectors` and scenario-based problem 'StreamBuzz `
+  
+    ➡️ Uploaded solutions in the `Java-8-and-its-features-practice branch's gcr-codebase` folder
+   
+    ➡️ Collectors
+    🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/java-8-and-its-features-practice/java-8-and-its-features/gcr-codebase/collectors) 
+    
+    ➡️ completed `Scenario-based problem` and uploaded solution in the `collection-practice scenario-based problem`
+   
+    ➡️ StreamBuzz
+    🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/collection-practice/collection-practice/scenario-based/streambuzz)
+
+  
+  - 📍 **04/02/26**
+ 
+    ➡️ Completed workshop on `Smart City Transport & Service Management System` and scenario-based problem `Ocean Fleet`
+  
+    ➡️ Uploaded solutions in the `Java-8-and-its-features-practice branch's gcr-codebase` folder
+   
+    ➡️ Smart City Transport & Service Management System
+    🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/java-8-and-its-features-practice/java-8-and-its-features/gcr-codebase/workshop/smartcitytransportandservicemanagementsystem) 
+    
+    ➡️ completed `Scenario-based problem` and uploaded it on collection-practice scenario-based problem
+   
+    ➡️ Ocean Fleet
+    🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/collection-practice/collection-practice/scenario-based/oceanfleet)
+
+$ **solution-designing-practice**
+    - 📍 **04/02/26**
+ 
+    ➡️ Created solution-designing-practice branch and completed solution designing practice
+  
+    ➡️ Uploaded solutions in the `solution-designing-practice branch's gcr-codebase` folder
+   
+    ➡️ Design Patterns
+    🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/solution-designing-practice/gcr-codebase/designpatterns) 
+
+   
 $ **Reviews**  
 
  - 📍 **05/01/26**
