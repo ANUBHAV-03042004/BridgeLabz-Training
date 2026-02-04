@@ -334,7 +334,7 @@ $ **java-8-and-its-features-practice**
     ➡️ online classroom attendance tracker
     🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/java-8-and-its-features-practice/java-8-and-its-features/scenario-based/onlineclassroomattendancetracker)
 
-  - 📍 **03/02/26**
+- 📍 **03/02/26**
  
    ➡️ Completed `Collectors` and scenario-based problem 'StreamBuzz `
   
