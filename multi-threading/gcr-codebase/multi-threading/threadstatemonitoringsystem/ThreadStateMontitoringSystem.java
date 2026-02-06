@@ -12,12 +12,18 @@ class TaskRunnerThread extends Thread{
 	@Override
 	public void run() {
 		try {
+			int sum=0;
+			 for (int i = 0; i < 100000000; i++) {
+		            sum += i;
+		        }
+
+
 			Thread.sleep(500);
 			synchronized (lock) {
 				Thread.sleep(2000);
 				lock.wait();
 			}
-			int sum=0;
+	
 			for(int i=0;i<10000;i++) {
 				sum+=i;
 			}
