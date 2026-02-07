@@ -22,9 +22,14 @@ class AddressBook {
         String phoneNumber = sc.next();
         System.out.println("Enter Email:");
         String email = sc.next();
-
-        contacts.add(new Contact(firstName, lastName, address, city, state, zip, phoneNumber, email));
+         
+        Contact newContact = new Contact(firstName, lastName, address, city, state, zip, phoneNumber, email);
+        
+        if(contacts.contains(newContact))System.out.println("Duplicate Entry Found !");
+        else { 
+        	contacts.add(newContact);
         System.out.println("Contact added successfully!");
+        }
     }
 
     public String editContact(Scanner sc) {

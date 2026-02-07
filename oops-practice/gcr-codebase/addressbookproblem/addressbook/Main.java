@@ -19,7 +19,7 @@ public class Main {
 
             int command = sc.nextInt();
             sc.nextLine(); // consume newline
-
+            boolean alreadyExists = false;
             if (command == 0) {
                 System.out.println("Code exited");
                 break;
@@ -29,13 +29,15 @@ public class Main {
             String bookName = sc.nextLine();
             AddressBook book = dictionary.getAddressBook(bookName);
             if (book == null) {
-                System.out.println("Address Book '" + bookName + "' not found. Creating new one...");
+                System.out.println("Address Book '" + bookName + "' not found. Creating new AddressBook");
                 dictionary.addAddressBook(bookName);
                 book = dictionary.getAddressBook(bookName);
+                alreadyExists = true;
             }
 
             switch (command) {
                 case 1:
+                	if(alreadyExists) break;
                     dictionary.addAddressBook(bookName);
                     break;
                 case 2:

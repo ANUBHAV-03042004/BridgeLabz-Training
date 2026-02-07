@@ -1,5 +1,7 @@
 package addressbook;
 
+import java.util.Objects;
+
 class Contact {
     String firstName;
     String lastName;
@@ -21,7 +23,20 @@ class Contact {
         this.phoneNumber = phoneNumber;
         this.email = email;
     }
-
+    @Override
+    public boolean equals(Object obj) {
+	if(this == obj) return true;
+	if (obj == null || getClass() != obj.getClass()) return false;
+	Contact contact = (Contact) obj;
+	return firstName.equalsIgnoreCase(contact.firstName) &&
+	           lastName.equalsIgnoreCase(contact.lastName);
+    }
+    @Override
+    public int hashCode() {
+		return Objects.hash(firstName.toLowerCase(),lastName.toLowerCase());
+    }
+    
+@Override
     public String toString() {
         return firstName + " " + lastName + " address : " + address + " , " + city + " , " + state +
                " ZIP - " + zip + " phnNo. = " + phoneNumber + " @-> " + email;
