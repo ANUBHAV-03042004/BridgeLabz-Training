@@ -16,6 +16,7 @@ public class Main {
             System.out.println("5 to show contacts");
             System.out.println("6 to search a person in contacts");
             System.out.println("7 to view person by city or state");
+            System.out.println("8 to view the count of person by city or state");
             System.out.println("0 to exit");
             System.out.print("Enter the number: ");
 
@@ -42,6 +43,13 @@ public class Main {
             	if(dictionary!=null) dictionary.viewByCityOrState(cityOrState);
             	else System.out.println("Dictionary is Empty");
             	continue;
+            }
+            if(command == 8) {
+            	 System.out.println("Enter city or state to show the count : ");
+                 String cityOrState = sc.next();
+                 	if(dictionary!=null) dictionary.CountByCityOrState(cityOrState);
+                 	else System.out.println("Dictionary is Empty");
+                 	continue;
             }
             System.out.print("Enter Address Book name: ");
             String bookName = sc.nextLine();

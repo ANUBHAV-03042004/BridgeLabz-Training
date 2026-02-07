@@ -61,5 +61,20 @@ public class Dictionary {
 		});
 		
 	}
+
+	public void CountByCityOrState(String cityOrState) {
+		long countbycity = dictionary.values().stream().flatMap(entry-> entry.contacts.stream()).filter(contact->
+		contact.city.equalsIgnoreCase(cityOrState)).count();
+		
+		if(countbycity > 0)System.out.println("Count By City :"+ countbycity);
+		
+		long countbystate = dictionary.values().stream().flatMap(entry-> entry.contacts.stream()).filter(contact->
+		contact.state.equalsIgnoreCase(cityOrState)).count();
+		
+		if(countbystate > 0)System.out.println("Count By State :"+ countbystate);
+		
+		
+		
+	}
 	
 }
