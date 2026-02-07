@@ -15,6 +15,7 @@ public class Main {
             System.out.println("4 to delete a contact");
             System.out.println("5 to show contacts");
             System.out.println("6 to search a person in contacts");
+            System.out.println("7 to view person by city or state");
             System.out.println("0 to exit");
             System.out.print("Enter the number: ");
 
@@ -32,6 +33,13 @@ public class Main {
             System.out.println("Enter city or state to find : ");
             String cityOrState = sc.next();
             	if(dictionary!=null) dictionary.find(Person,cityOrState);
+            	else System.out.println("Dictionary is Empty");
+            	continue;
+            }
+            if(command == 7) {
+            System.out.println("Enter city or state to show : ");
+            String cityOrState = sc.next();
+            	if(dictionary!=null) dictionary.viewByCityOrState(cityOrState);
             	else System.out.println("Dictionary is Empty");
             	continue;
             }
