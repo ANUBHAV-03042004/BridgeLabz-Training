@@ -6,7 +6,7 @@ import java.util.stream.Stream;
 
 public class Dictionary {
     HashMap<String, AddressBook> dictionary = new HashMap<>();
-
+	Stream<Map.Entry<String,AddressBook>> foundMatch;
     public AddressBook getAddressBook(String name) {
         return dictionary.get(name);
     }
@@ -21,21 +21,24 @@ public class Dictionary {
     }
 
 	public void find(String person,String cityOrState) {
-		Stream<Map.Entry<String,AddressBook>> foundMatch = dictionary.entrySet().stream().filter(
+	 foundMatch = dictionary.entrySet().stream().filter(
 				entry -> entry.getValue().contacts.stream()
 		        .anyMatch(contact -> 
 		            contact.city.equalsIgnoreCase(cityOrState) ||
 		            contact.state.equalsIgnoreCase(cityOrState)));
-				foundMatch.forEach(entry -> {
-				    System.out.println(entry.getKey() + " -> ");
-				    entry.getValue().contacts.stream()
-				        .filter(contact -> 
-				            contact.city.equalsIgnoreCase(cityOrState) ||
-				            contact.state.equalsIgnoreCase(cityOrState)
-				        )
-				        .forEach(System.out::println);
-				});
+	 displayMatches(cityOrState);
 
 		
+	}
+	public void displayMatches(String cityOrState) {
+		foundMatch.forEach(entry -> {
+		    System.out.println(entry.getKey() + " -> ");
+		    entry.getValue().contacts.stream()
+		        .filter(contact -> 
+		            contact.city.equalsIgnoreCase(cityOrState) ||
+		            contact.state.equalsIgnoreCase(cityOrState)
+		        )
+		        .forEach(System.out::println);
+		});
 	}
 }
