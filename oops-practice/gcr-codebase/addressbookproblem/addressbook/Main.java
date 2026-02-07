@@ -14,6 +14,7 @@ public class Main {
             System.out.println("3 to edit contact details");
             System.out.println("4 to delete a contact");
             System.out.println("5 to show contacts");
+            System.out.println("6 to search a person in contacts");
             System.out.println("0 to exit");
             System.out.print("Enter the number: ");
 
@@ -24,10 +25,20 @@ public class Main {
                 System.out.println("Code exited");
                 break;
             }
-
+           
+            if(command == 6) {
+            	System.out.println("Enter Full Name : ");
+            	String Person = sc.nextLine();
+            System.out.println("Enter city or state to find : ");
+            String cityOrState = sc.next();
+            	if(dictionary!=null) dictionary.find(Person,cityOrState);
+            	else System.out.println("Dictionary is Empty");
+            	continue;
+            }
             System.out.print("Enter Address Book name: ");
             String bookName = sc.nextLine();
             AddressBook book = dictionary.getAddressBook(bookName);
+            
             if (book == null) {
                 System.out.println("Address Book '" + bookName + "' not found. Creating new AddressBook");
                 dictionary.addAddressBook(bookName);
