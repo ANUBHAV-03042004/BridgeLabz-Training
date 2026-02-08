@@ -18,7 +18,7 @@ public class Main {
             System.out.println("7 to view person by city or state");
             System.out.println("8 to view the count of person by city or state");
             System.out.println("9 to sort the entries in the addressbook alphabetically");
-            System.out.println("10 to sort the entries in the addressbook by city , state or zip");
+            System.out.println("10 to sort the entries in the addressbook by city , state or zip");  // sort entries by city state or zip.
             System.out.println("0 to exit");
             System.out.print("Enter the number: ");
 

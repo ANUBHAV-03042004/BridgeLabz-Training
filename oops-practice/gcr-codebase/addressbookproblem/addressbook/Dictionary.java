@@ -90,7 +90,7 @@ public class Dictionary {
 		
 		
 	}
-
+// sort entries by city state or zip
 	public void sortByCityStateOrZip() {
 		for (AddressBook book : dictionary.values()) {
 			 Collections.sort(book.contacts,
