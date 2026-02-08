@@ -3,7 +3,10 @@ import java.util.*;
 
 class AddressBook {
     List<Contact> contacts = new ArrayList<>();
-
+    @Override
+    public String toString() {
+        return contacts.toString();
+    }
     public void addContact(Scanner sc) {
         System.out.println("Enter First Name:");
         String firstName = sc.next();
@@ -16,12 +19,19 @@ class AddressBook {
         String city = sc.next();
         System.out.println("Enter State:");
         String state = sc.next();
-        System.out.println("Enter Zip:");
-        String zip = sc.next();
-        System.out.println("Enter Phone Number:");
-        String phoneNumber = sc.next();
+        String zip;
+        do {
+            System.out.println("Enter Zip code (6 digits):");
+            zip = sc.next();
+        } while (!zip.matches("\\d{6}"));
+        String phoneNumber;
+        do {
+        	 System.out.println("Enter Phone Number (10 digits):");
+           phoneNumber = sc.next();
+        } while (!phoneNumber.matches("\\d{10}"));
         System.out.println("Enter Email:");
         String email = sc.next();
+        
          
         Contact newContact = new Contact(firstName, lastName, address, city, state, zip, phoneNumber, email);
         

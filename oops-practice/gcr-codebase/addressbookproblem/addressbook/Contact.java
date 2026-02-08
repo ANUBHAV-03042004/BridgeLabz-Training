@@ -36,6 +36,12 @@ class Contact {
 		return Objects.hash(firstName.toLowerCase(),lastName.toLowerCase());
     }
     
+public String getFirstName() {
+		return firstName;
+	}
+	public String getLastName() {
+		return lastName;
+	}
 @Override
     public String toString() {
         return firstName + " " + lastName + " address : " + address + " , " + city + " , " + state +

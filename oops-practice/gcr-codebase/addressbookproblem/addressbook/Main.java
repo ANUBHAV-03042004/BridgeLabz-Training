@@ -17,6 +17,8 @@ public class Main {
             System.out.println("6 to search a person in contacts");
             System.out.println("7 to view person by city or state");
             System.out.println("8 to view the count of person by city or state");
+            System.out.println("9 to sort the entries in the addressbook alphabetically");
+            System.out.println("10 to sort the entries in the addressbook by city , state or zip");
             System.out.println("0 to exit");
             System.out.print("Enter the number: ");
 
@@ -51,12 +53,24 @@ public class Main {
                  	else System.out.println("Dictionary is Empty");
                  	continue;
             }
+            if(command == 9) {
+                	if(dictionary!=null) dictionary.sortAlphabetically();
+                	else System.out.println("Dictionary is Empty");
+                	continue;
+            }
+            
+            if(command == 10) {
+            	if(dictionary!=null) dictionary.sortByCityStateOrZip();
+            	else System.out.println("Dictionary is Empty");
+            	continue;
+        }
+            
             System.out.print("Enter Address Book name: ");
             String bookName = sc.nextLine();
             AddressBook book = dictionary.getAddressBook(bookName);
             
             if (book == null) {
-                System.out.println("Address Book '" + bookName + "' not found. Creating new AddressBook");
+                System.out.println("Creating new AddressBook");
                 dictionary.addAddressBook(bookName);
                 book = dictionary.getAddressBook(bookName);
                 alreadyExists = true;
