@@ -16,6 +16,44 @@ CREATE TABLE audit_log (
     change_timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
+DELIMITER //
+
+CREATE TRIGGER trg_appointments_insert
+AFTER INSERT ON appointments
+FOR EACH ROW
+BEGIN
+    INSERT INTO audit_log
+    (table_name, operation_type, record_id, changed_by)
+    VALUES
+    ('appointments', 'INSERT', NEW.appointment_id, 'SYSTEM');
+END//
+
+DELIMITER ;
+
+DELIMITER //
 
 
+
+
+DELIMITER //
+
+CREATE TRIGGER trg_appointments_delete
+AFTER DELETE ON appointments
+FOR EACH ROW
+BEGIN
+    INSERT INTO audit_log
+    (table_name, operation_type, record_id, changed_by)
+    VALUES
+    ('appointments', 'DELETE', OLD.appointment_id, 'SYSTEM');
+END//
+
+DELIMITER ;
+
+
+
+use hospital_db;
+INSERT INTO appointment_audit (appointment_id, action_type, remarks)
+VALUES 
+(1, 'CREATED', 'Initial appointment booking'),
+(2, 'CREATED', 'Initial appointment booking');
 
