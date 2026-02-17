@@ -10,10 +10,19 @@ public class EmpWageBuilder {
     private int totalHours;
     private int totalDays;
 
+    private Company[] companyEmpWage;
+    private int companyCount = 0;
+
     Random random = new Random();
     public EmpWageBuilder(Company company) {
         this.company = company;
     }
+    public EmpWageBuilder(int size) {
+        this.companyEmpWage = new Company[size];
+    }
+  public void addCompany(String name, int wagePerHour, int maxDays,int maxHours) {
+companyEmpWage[companyCount++] = new Company(name, wagePerHour, maxDays, maxHours);
+}
 
     public void computeEmployeeWage() {
 
@@ -56,4 +65,39 @@ public class EmpWageBuilder {
 	public Company getCompany() {
         return company;
     }
+	
+	 public int getTotalWage(String companyName) {
+	        for (int i = 0; i < companyCount; i++) {
+	            if (companyEmpWage[i].getCompanyName().equals(companyName)) {
+	                return companyEmpWage[i].getTotalWage();
+	            }
+	        }
+	        return -1;
+	    }
+	
+	 public void computeCompanyWageForEmployeeWage() {
+		 for(int i=0;i<companyCount;i++) {
+           Company company = companyEmpWage[i];
+           int totalHours = 0;
+           int totalDays = 0;
+           int totalWage = 0;
+	        while (totalDays < company.getMaxWorkingDays() &&
+	               totalHours < company.getMaxWorkingHours()) {
+
+	            totalDays++;
+
+	        
+	            int hoursWorked = employeeStatus();
+
+	            if (totalHours + hoursWorked > company.getMaxWorkingHours()) {
+	                break;
+	            }
+
+	            totalHours += hoursWorked;
+	            totalWage += hoursWorked * company.getWagePerHour();
+	            company.setTotalWage(totalWage);
+//	            System.out.println(company);
+	        }
+		 }
+	    }
 }

@@ -31,5 +31,19 @@ public class EmployeeMain {
 
     cdao.save(tcsBuilder.getCompany());
      cdao.save(infosysBuilder.getCompany());
+     
+     
+
+     EmpWageBuilder builder = new EmpWageBuilder(5);
+
+     builder.addCompany("TCS", 20, 20, 100);
+     builder.addCompany("Infosys", 25, 22, 120);
+     builder.addCompany("Wipro", 18, 25, 110);
+
+     builder.computeCompanyWageForEmployeeWage();
+
+     System.out.println("TCS Wage: " + builder.getTotalWage("TCS"));
+     System.out.println("Infosys Wage: " + builder.getTotalWage("Infosys"));
+     System.out.println("Wipro Wage: " + builder.getTotalWage("Wipro"));
     }
 }

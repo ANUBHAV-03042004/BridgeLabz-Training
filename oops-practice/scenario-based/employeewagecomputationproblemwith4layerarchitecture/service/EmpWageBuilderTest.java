@@ -11,13 +11,14 @@ public class EmpWageBuilderTest {
 
     private Company company;
     private EmpWageBuilder builder;
+    private EmpWageBuilder companyWageBuilder;
 
     @BeforeEach
     void setUp() {
         company = new Company("TCS", 20, 20, 100);
         builder = new EmpWageBuilder(company);
     }
-
+ 
     @Test
     void testEmployeeStatusShouldReturnValidHours() {
         int hours = builder.employeeStatus();
