@@ -1,5 +1,6 @@
 package employeewagecomputationproblemwith4layerarchitecture.service;
 
+import java.util.ArrayList;
 import java.util.Random;
 import employeewagecomputationproblemwith4layerarchitecture.model.Company;
 
@@ -10,20 +11,23 @@ public class EmpWageBuilder implements IEmpWageBuilder {
     private int totalHours;
     private int totalDays;
 
-    private Company[] companyEmpWage;
-    private int companyCount = 0;
+//    private Company[] companyEmpWage;
+    private ArrayList<Company> companyEmpWage;
+//    private int companyCount = 0;
 
     Random random = new Random();
     public EmpWageBuilder(Company company) {
         this.company = company;
     }
     public EmpWageBuilder(int size) {
-        this.companyEmpWage = new Company[size];
+//        this.companyEmpWage = new Company[size];
+    	this.companyEmpWage = new ArrayList<>(size);
     }
-    
+  
     @Override
   public void addCompany(String name, int wagePerHour, int maxDays,int maxHours) {
-companyEmpWage[companyCount++] = new Company(name, wagePerHour, maxDays, maxHours);
+//companyEmpWage[companyCount++] = new Company(name, wagePerHour, maxDays, maxHours);
+    	companyEmpWage.add(new Company(name, wagePerHour, maxDays, maxHours));
 }
 
     public void computeEmployeeWage() {
@@ -69,17 +73,22 @@ companyEmpWage[companyCount++] = new Company(name, wagePerHour, maxDays, maxHour
     }
 	@Override
 	 public int getTotalWage(String companyName) {
-	        for (int i = 0; i < companyCount; i++) {
-	            if (companyEmpWage[i].getCompanyName().equals(companyName)) {
-	                return companyEmpWage[i].getTotalWage();
+//	        for (int i = 0; i < companyCount; i++) {
+		   for (int i = 0; i < companyEmpWage.size(); i++) {
+//	            if (companyEmpWage[i].getCompanyName().equals(companyName)) {
+		       if (companyEmpWage.get(i).getCompanyName().equals(companyName)) {
+//	                return companyEmpWage[i].getTotalWage();
+		    	   return companyEmpWage.get(i).getTotalWage();
 	            }
 	        }
 	        return -1;
 	    }
 	@Override
 	 public void computeCompanyWageForEmployeeWage() {
-		 for(int i=0;i<companyCount;i++) {
-           Company company = companyEmpWage[i];
+//		 for(int i=0;i<companyCount;i++) {
+		 for(int i=0;i<companyEmpWage.size();i++) {
+//           Company company = companyEmpWage[i];
+			  Company company = companyEmpWage.get(i);
            int totalHours = 0;
            int totalDays = 0;
            int totalWage = 0;
