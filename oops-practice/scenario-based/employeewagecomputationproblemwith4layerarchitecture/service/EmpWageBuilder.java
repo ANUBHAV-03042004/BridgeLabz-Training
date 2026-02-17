@@ -3,7 +3,7 @@ package employeewagecomputationproblemwith4layerarchitecture.service;
 import java.util.Random;
 import employeewagecomputationproblemwith4layerarchitecture.model.Company;
 
-public class EmpWageBuilder {
+public class EmpWageBuilder implements IEmpWageBuilder {
     private static final int FULL_TIME_HOURS = 8;
     private static final int PART_TIME_HOURS = 4;
     private Company company;
@@ -20,6 +20,8 @@ public class EmpWageBuilder {
     public EmpWageBuilder(int size) {
         this.companyEmpWage = new Company[size];
     }
+    
+    @Override
   public void addCompany(String name, int wagePerHour, int maxDays,int maxHours) {
 companyEmpWage[companyCount++] = new Company(name, wagePerHour, maxDays, maxHours);
 }
@@ -65,7 +67,7 @@ companyEmpWage[companyCount++] = new Company(name, wagePerHour, maxDays, maxHour
 	public Company getCompany() {
         return company;
     }
-	
+	@Override
 	 public int getTotalWage(String companyName) {
 	        for (int i = 0; i < companyCount; i++) {
 	            if (companyEmpWage[i].getCompanyName().equals(companyName)) {
@@ -74,7 +76,7 @@ companyEmpWage[companyCount++] = new Company(name, wagePerHour, maxDays, maxHour
 	        }
 	        return -1;
 	    }
-	
+	@Override
 	 public void computeCompanyWageForEmployeeWage() {
 		 for(int i=0;i<companyCount;i++) {
            Company company = companyEmpWage[i];
@@ -100,4 +102,5 @@ companyEmpWage[companyCount++] = new Company(name, wagePerHour, maxDays, maxHour
 	        }
 		 }
 	    }
+	
 }

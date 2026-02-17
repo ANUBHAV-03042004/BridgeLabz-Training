@@ -5,7 +5,7 @@ import employeewagecomputationproblemwith4layerarchitecture.dao.EmployeeDAO;
 import employeewagecomputationproblemwith4layerarchitecture.model.Employee;
 import employeewagecomputationproblemwith4layerarchitecture.service.EmpWageBuilder;
 import employeewagecomputationproblemwith4layerarchitecture.service.EmployeeService;
-
+import employeewagecomputationproblemwith4layerarchitecture.service.IEmpWageBuilder;
 public class EmployeeMain {
 
     public static void main(String[] args) {
@@ -34,8 +34,8 @@ public class EmployeeMain {
      
      
 
-     EmpWageBuilder builder = new EmpWageBuilder(5);
-
+//     EmpWageBuilder builder = new EmpWageBuilder(5);
+     IEmpWageBuilder builder = new EmpWageBuilder(5);
      builder.addCompany("TCS", 20, 20, 100);
      builder.addCompany("Infosys", 25, 22, 120);
      builder.addCompany("Wipro", 18, 25, 110);

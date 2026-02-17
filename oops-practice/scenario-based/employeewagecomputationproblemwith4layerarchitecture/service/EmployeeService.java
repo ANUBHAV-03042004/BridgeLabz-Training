@@ -4,7 +4,7 @@ import java.util.Random;
 import employeewagecomputationproblemwith4layerarchitecture.model.Employee;
 import employeewagecomputationproblemwith4layerarchitecture.model.Company;
 
-public class EmployeeService {
+public class EmployeeService  {
 
 //class variables (constants)
     private static final int MAX_WORKING_DAYS = 20;
