@@ -84,6 +84,20 @@ public class CompanyWageBuilderTest {
 	                company.getTotalWage(),
 	                "Total wage must equal sum of daily wages");
 	    }
+	    @Test
+	    void testGetTotalWageForValidCompany() {
 
+	        // Arrange
+	        companyWageBuilder.computeCompanyWageForEmployeeWage();
+
+	        // Act
+	        int tcsWage = companyWageBuilder.getTotalWage("TCS");
+
+	        // Assert
+	        assertTrue(tcsWage > 0, 
+	                "Total wage for TCS should be greater than 0 after computation");
+	    }
+
+	  
 
 }
