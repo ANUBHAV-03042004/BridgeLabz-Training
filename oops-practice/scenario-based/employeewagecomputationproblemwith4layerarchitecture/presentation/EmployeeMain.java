@@ -3,6 +3,7 @@ import employeewagecomputationproblemwith4layerarchitecture.model.Company;
 import employeewagecomputationproblemwith4layerarchitecture.dao.CompanyDAO;
 import employeewagecomputationproblemwith4layerarchitecture.dao.EmployeeDAO;
 import employeewagecomputationproblemwith4layerarchitecture.model.Employee;
+import employeewagecomputationproblemwith4layerarchitecture.service.EmpWageBuilder;
 import employeewagecomputationproblemwith4layerarchitecture.service.EmployeeService;
 
 public class EmployeeMain {
@@ -22,9 +23,13 @@ public class EmployeeMain {
         Company infosys = new Company("Infosys", 25, 22, 120);
 
      CompanyDAO cdao = new CompanyDAO();
-        service.computeEmployeeWage(tcs);
-        cdao.save(tcs);
-        service.computeEmployeeWage(infosys);
-        cdao.save(infosys);
+     EmpWageBuilder tcsBuilder = new EmpWageBuilder(tcs);
+     tcsBuilder.computeEmployeeWage();
+
+     EmpWageBuilder infosysBuilder = new EmpWageBuilder(infosys);
+     infosysBuilder.computeEmployeeWage();
+
+    cdao.save(tcsBuilder.getCompany());
+     cdao.save(infosysBuilder.getCompany());
     }
 }

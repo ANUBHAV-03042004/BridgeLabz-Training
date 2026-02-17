@@ -77,40 +77,6 @@ public class EmployeeService {
 
         System.out.println("\nMonthly Wage: " + employee.getTotalWage());
     }
-
-        public int computeEmployeeWage(Company company) {
-
-            int totalHours = 0;
-            int totalDays = 0;
-            int totalWage = 0;
-
-            while (totalDays < company.getMaxWorkingDays() &&
-                   totalHours < company.getMaxWorkingHours()) {
-
-                totalDays++;
-
-              
-                int hoursWorked = findEmployeeStatus();
-
-               
-
-                totalHours += hoursWorked;
-                totalWage += hoursWorked * company.getWagePerHour();
-
-                System.out.println("Day: " + totalDays +
-                        " | Hours: " + hoursWorked +
-                        " | Daily Wage: " +
-                        (hoursWorked * company.getWagePerHour()));
-            }
-
-            company.setTotalWage(totalWage);
-
-            System.out.println("Total Wage for "
-                    + company.getCompanyName()
-                    + " : " + totalWage);
-
-            return totalWage;
-        }
 }
 
 
