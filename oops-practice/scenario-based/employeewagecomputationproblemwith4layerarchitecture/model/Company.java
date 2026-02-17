@@ -7,7 +7,8 @@ public class Company {
     private int maxWorkingDays;
     private int maxWorkingHours;
     private int totalWage;
-
+    private int[] dailyWages;
+    private int dayCount;
     public Company(String companyName, int wagePerHour,
                    int maxWorkingDays, int maxWorkingHours) {
 
@@ -15,6 +16,7 @@ public class Company {
         this.wagePerHour = wagePerHour;
         this.maxWorkingDays = maxWorkingDays;
         this.maxWorkingHours = maxWorkingHours;
+        this.dailyWages = new int[maxWorkingDays];
     }
 
     public String getCompanyName() { return companyName; }
@@ -24,7 +26,15 @@ public class Company {
 
     public int getTotalWage() { return totalWage; }
     public void setTotalWage(int totalWage) { this.totalWage = totalWage; }
-    
+    public void addDailyWage(int wage) {
+        dailyWages[dayCount++] = wage;
+        totalWage += wage;
+    }
+
+    public int[] getDailyWages() {
+        return dailyWages;
+    }
+
     @Override
     public String toString() {
         return "Total Wage for " + companyName + " is: " + totalWage;

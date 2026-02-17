@@ -65,5 +65,25 @@ public class CompanyWageBuilderTest {
 	                "Different companies should have independent wage calculation"
 	        );
 	    }
+	    
+	    @Test
+	    void testTotalWageShouldEqualSumOfDailyWages() {
+
+	    	 companyWageBuilder.computeCompanyWageForEmployeeWage();
+
+	    	    Company company = companyWageBuilder.getCompany("TCS");
+
+	        int[] dailyWages = company.getDailyWages();
+
+	        int sum = 0;
+	        for (int wage : dailyWages) {
+	            sum += wage;
+	        }
+
+	        assertEquals(sum,
+	                company.getTotalWage(),
+	                "Total wage must equal sum of daily wages");
+	    }
+
 
 }

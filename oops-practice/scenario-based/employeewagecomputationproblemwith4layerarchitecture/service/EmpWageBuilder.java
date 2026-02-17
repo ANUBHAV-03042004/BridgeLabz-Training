@@ -71,6 +71,15 @@ public class EmpWageBuilder implements IEmpWageBuilder {
 	public Company getCompany() {
         return company;
     }
+	public Company getCompany(String companyName) {
+	    for (Company company : companyEmpWage) {
+	        if (company.getCompanyName().equals(companyName)) {
+	            return company;
+	        }
+	    }
+	    return null;
+	}
+
 	@Override
 	 public int getTotalWage(String companyName) {
 //	        for (int i = 0; i < companyCount; i++) {
@@ -105,7 +114,10 @@ public class EmpWageBuilder implements IEmpWageBuilder {
 	            }
 
 	            totalHours += hoursWorked;
-	            totalWage += hoursWorked * company.getWagePerHour();
+	            
+	            int dailyWage = hoursWorked * company.getWagePerHour();
+	            totalWage += dailyWage;
+	            company.addDailyWage(dailyWage);
 	            company.setTotalWage(totalWage);
 //	            System.out.println(company);
 	        }
