@@ -25,7 +25,9 @@ public class EmpWageBuilder {
         
             int hoursWorked = employeeStatus();
 
-          
+            if (totalHours + hoursWorked > company.getMaxWorkingHours()) {
+                break;
+            }
 
             totalHours += hoursWorked;
             company.setTotalWage(
