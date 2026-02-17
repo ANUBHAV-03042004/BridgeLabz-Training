@@ -20,7 +20,7 @@ public class Main {
 
             System.out.println("Enter the Quantity of item:");
             int quantity = sc.nextInt();
-            sc.nextLine(); 
+            sc.nextLine();
 
             cart.addItem(new CartItem(item, price, quantity));
         }

@@ -11,7 +11,7 @@ public class BrickTransport extends GoodsTransport {
 		this.brickSize=brickSize;
 		this.brickQuantity=brickQuantity;
 		this.brickPrice=brickPrice;
-		
+
 	}
 	float getbrickSize() {return brickSize;}
 	int getbrickQuantity() {return brickQuantity;}
@@ -28,7 +28,7 @@ public class BrickTransport extends GoodsTransport {
 		discount_on_transportRating.put(2,0.0f);
 		discount_on_transportRating.put(1,0.0f);
 	}
-	
+
 	@Override
 	public String vehicleSelection() {
 		String vehicle="";

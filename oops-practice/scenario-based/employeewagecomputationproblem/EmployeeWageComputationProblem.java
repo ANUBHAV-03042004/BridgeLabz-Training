@@ -21,7 +21,7 @@ public class EmployeeWageComputationProblem {
         int EmployeehoursWorked=0;
         switch (status_value) {
             case 0:
-                empstatus = Empname + " is a Full Time Employee.";    
+                empstatus = Empname + " is a Full Time Employee.";
                 EmployeehoursWorked=8;
                 dailyEmployeeWage(attendance, 8);
                 break;

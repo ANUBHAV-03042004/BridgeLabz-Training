@@ -1,5 +1,5 @@
 package computeareaofcircle;
-import java.util.*;
+
 public class AreaOfCircle {
 		double radius;
 			AreaOfCircle (double radius){

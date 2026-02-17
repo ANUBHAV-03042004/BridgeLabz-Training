@@ -11,13 +11,12 @@ public static void main(String[] args) {
 	String transportDetails[]=input.split(":");
 	String TransportId = transportDetails[0];
 	if (!utility.validateTransportId(TransportId)) {
+		sc.close();
 	    return;
 	}
 	GoodsTransport goods = utility.parseDetails(input);
 	utility.findObjectType(goods);
-	
-	
 
-	
+	sc.close();
 }
 }

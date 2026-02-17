@@ -4,11 +4,11 @@ public class Utility {
 	public GoodsTransport parseDetails(String input) {
 		String transportDetails[]=input.split(":");
 		String TransportId = transportDetails[0];
-		
+
 		String TransportDate = transportDetails[1];
 		int TransportRating = Integer.parseInt(transportDetails[2]);
 		String TransportType = transportDetails[3];
-		
+
 		if(TransportType.equalsIgnoreCase("BrickTransport")) {
 			float brickSize = Float.parseFloat(transportDetails[4]);
 		    int brickQuantity = Integer.parseInt(transportDetails[5]);
@@ -24,7 +24,7 @@ public class Utility {
 		}
 		return null;
 	}
-	
+
 	public boolean validateTransportId (String transportId) {
 		String regex = "^RTS[0-9]{3}[A-Z]$";
 		if(!transportId.matches(regex)) {

@@ -20,7 +20,7 @@ public class Main {
 			int amount=sc.nextInt();
 			stimulateanatm.deposit(amount);
 			}
-		else 
+		else
 			{
 			System.out.println("Enter the amount to get withdraw:");
 			int amount=sc.nextInt();

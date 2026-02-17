@@ -1,6 +1,5 @@
 package customerservicecalllogmanager;
 
-import java.util.ArrayList;
 
 public class CallLog {
     long phonenumber;

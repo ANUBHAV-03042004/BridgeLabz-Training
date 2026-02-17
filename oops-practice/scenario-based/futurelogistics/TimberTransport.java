@@ -3,7 +3,7 @@ package futurelogistics;
 import java.util.HashMap;
 
 public class TimberTransport extends GoodsTransport {
-	
+
 	private float timberLength;
 	private float timberRadius;
 	private String timberType;
@@ -19,8 +19,8 @@ public class TimberTransport extends GoodsTransport {
 	float gettimberRadius() {return timberRadius;}
 	String gettimberType() {return timberType;}
 	float gettimberPrice() {return timberPrice;}
-	
-	
+
+
 	HashMap<String,Integer> vehiclePrice= new HashMap<>();{
 		vehiclePrice.put("Truck",1000);
 		vehiclePrice.put("Lorry",1700);
@@ -33,8 +33,8 @@ public class TimberTransport extends GoodsTransport {
 			discount_on_transportRating.put(2,0.0f);
 			discount_on_transportRating.put(1,0.0f);
 		}
-		
-		
+
+
 	@Override
 	public String vehicleSelection() {
 		String vehicle = "";
@@ -55,7 +55,7 @@ public class TimberTransport extends GoodsTransport {
 	float totalCharge = ((Price)+ vehiclePrice.get(vehicle) + tax ) - discount;
 	return totalCharge;
 	}
-	
+
 	public void showDetails() {
 		System.out.println("Transport ID :"+ transportId);
 		System.out.println("Transport Date : "+transportDate);
@@ -65,5 +65,5 @@ public class TimberTransport extends GoodsTransport {
 		System.out.println("Timber Type : "+timberType);
 		System.out.println("Timber Price : "+timberPrice);
 	}
-	
+
 }

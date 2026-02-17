@@ -1,7 +1,7 @@
 package customerservicecalllogmanager;
 
-import java.util.Scanner;
 import java.time.LocalTime;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -25,6 +25,8 @@ public class Main {
         manager.searchByKeyword("hello");
 
         System.out.println("\nFiltering by time substring:");
-        manager.filterByTime(currenttime.substring(0, 5)); 
+        manager.filterByTime(currenttime.substring(0, 5));
+        sc.close();
     }
+
 }

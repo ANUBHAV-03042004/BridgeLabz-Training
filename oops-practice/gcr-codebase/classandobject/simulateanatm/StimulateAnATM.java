@@ -10,7 +10,7 @@ public class StimulateAnATM {
 	        this.accountHolder = accountHolder;
 	        this.accountNumber = accountNumber;
 	        this.balance = balance;
-	        this.amount=amount;
+//	        this.amount=amount;
 	    }
 
 	    // Method to deposit money
