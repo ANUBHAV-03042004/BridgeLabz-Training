@@ -44,7 +44,7 @@ public String getFirstName() {
 	}
 @Override
     public String toString() {
-        return firstName + " " + lastName + " address : " + address + " , " + city + " , " + state +
-               " ZIP - " + zip + " phnNo. = " + phoneNumber + " @-> " + email;
+        return "FirstName : "+firstName + " " +"LastName : " + lastName + " address : " + address + " , " +"City "+ city + " , " +"State " +state +
+               " ZIP - " + zip + " phnNo. = " + phoneNumber + " Email@-> " + email;
     }
 }

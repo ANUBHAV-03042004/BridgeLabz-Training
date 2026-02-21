@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Dictionary dictionary = new Dictionary();
-
+FileIO fileio= new FileIO();
         System.out.println("Welcome To Address Book Program");
 
         while (true) {
@@ -19,6 +19,7 @@ public class Main {
             System.out.println("8 to view the count of person by city or state");
             System.out.println("9 to sort the entries in the addressbook alphabetically");
             System.out.println("10 to sort the entries in the addressbook by city , state or zip");  // sort entries by city state or zip.
+            System.out.println("11 to read and write the addressbook into a file using FileIO");
             System.out.println("0 to exit");
             System.out.print("Enter the number: ");
 
@@ -63,7 +64,11 @@ public class Main {
             	if(dictionary!=null) dictionary.sortByCityStateOrZip();
             	else System.out.println("Dictionary is Empty");
             	continue;
+        }   if(command ==11) {
+        	fileio.readAndWrite(dictionary);
+        	continue;
         }
+     
             
             System.out.print("Enter Address Book name: ");
             String bookName = sc.nextLine();
@@ -97,6 +102,7 @@ public class Main {
                     if (book != null) book.showContacts();
                     else System.out.println("No Address Book found with that name.");
                     break;
+               
                 default:
                     System.out.println("Invalid choice, please try again.");
             }
