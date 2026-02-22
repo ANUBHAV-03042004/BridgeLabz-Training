@@ -7,6 +7,7 @@ public class Main {
         Dictionary dictionary = new Dictionary();
 FileIO fileio= new FileIO();
 CsvIO csvio = new CsvIO();
+JsonIO jsonio = new JsonIO();
         System.out.println("Welcome To Address Book Program");
 
         while (true) {
@@ -22,6 +23,7 @@ CsvIO csvio = new CsvIO();
             System.out.println("10 to sort the entries in the addressbook by city , state or zip");  // sort entries by city state or zip.
             System.out.println("11 to read and write the addressbook into a file using FileIO");
             System.out.println("12 to read and write the addressbook into a csv file.");
+            System.out.println("13 to read and write the addressbook into a json file");
             System.out.println("0 to exit");
             System.out.print("Enter the number: ");
 
@@ -73,6 +75,10 @@ CsvIO csvio = new CsvIO();
         }
             if(command ==12) {
             	csvio.readAndWrite(dictionary);
+            	continue;
+            }
+            if(command ==13) {
+            	jsonio.readAndWrite(dictionary);
             	continue;
             }
      

@@ -1,0 +1,32 @@
+{
+  "dictionary": {
+    "w": {
+      "contacts": [
+        {
+          "firstName": "w",
+          "lastName": "w",
+          "address": "w",
+          "city": "w",
+          "state": "w",
+          "zip": "123456",
+          "phoneNumber": "1234567890",
+          "email": "w"
+        }
+      ]
+    },
+    "an": {
+      "contacts": [
+        {
+          "firstName": "a",
+          "lastName": "a",
+          "address": "a",
+          "city": "a",
+          "state": "a",
+          "zip": "123456",
+          "phoneNumber": "1234567890",
+          "email": "q"
+        }
+      ]
+    }
+  }
+}
