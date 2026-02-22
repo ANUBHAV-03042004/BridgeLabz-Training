@@ -6,6 +6,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         Dictionary dictionary = new Dictionary();
 FileIO fileio= new FileIO();
+CsvIO csvio = new CsvIO();
         System.out.println("Welcome To Address Book Program");
 
         while (true) {
@@ -20,6 +21,7 @@ FileIO fileio= new FileIO();
             System.out.println("9 to sort the entries in the addressbook alphabetically");
             System.out.println("10 to sort the entries in the addressbook by city , state or zip");  // sort entries by city state or zip.
             System.out.println("11 to read and write the addressbook into a file using FileIO");
+            System.out.println("12 to read and write the addressbook into a csv file.");
             System.out.println("0 to exit");
             System.out.print("Enter the number: ");
 
@@ -64,10 +66,15 @@ FileIO fileio= new FileIO();
             	if(dictionary!=null) dictionary.sortByCityStateOrZip();
             	else System.out.println("Dictionary is Empty");
             	continue;
-        }   if(command ==11) {
+        }  
+            if(command ==11) {
         	fileio.readAndWrite(dictionary);
         	continue;
         }
+            if(command ==12) {
+            	csvio.readAndWrite(dictionary);
+            	continue;
+            }
      
             
             System.out.print("Enter Address Book name: ");
