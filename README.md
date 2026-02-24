@@ -374,7 +374,35 @@ $ **solution-designing-practice**
    ➡️ Design Patterns
    🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/solution-designing-practice/gcr-codebase/designpatterns) 
 
+$ **multi-threading-practice**
+
+ - 📍 **05/02/26**
+ 
+   ➡️ Created multi-threading-practice
+  
+   ➡️ Uploaded solutions in the `multi-threading-practice branch's gcr-codebase` folder
    
+   ➡️ Multi-Threading
+   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/multi-threading-practice/multi-threading/gcr-codebase/multi-threading) 
+
+
+$ **jdbc-and-dbms-practice**
+
+ - 📍 **06/02/26 - 08/02/26**
+ 
+   ➡️ Created jdbc-and-dbms-practice
+  
+   ➡️ Uploaded solutions in the `jdbc-and-dbms-practice branch's gcr-codebase` folder
+   
+   ➡️ Used MySQL created models and uploaded .sql files.
+   
+   ➡️ Completed HealthClinic App
+   
+   ➡️ JDBC AND DBMS
+   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/jdbc-and-dbms-practice/jdbc-and-dbms-practice/gcr-codebase/dbms) 
+
+
+
 $ **Reviews**  
 
  - 📍 **05/01/26**
