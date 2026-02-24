@@ -19,6 +19,10 @@ A repository to track my **Java** journey and progress.
 
 🔗 [BridgeLabz-Training (solution-designing-practice)](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/solution-designing-practice)
 
+🔗 [BridgeLabz-Training (jdbc-and-dbms-practice)](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/jdbc-and-dbms-practice)
+
+🔗 [BridgeLabz-Training (multi-threading-practice)](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/multi-threading-practice)
+
 🔗 [BridgeLabz-Training (Reviews)](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/reviews)
 
 
