@@ -57,13 +57,10 @@ public class OnlineCourseEnrollmentManager {
         Display.printHeader("Sorted by Enrollment Date (Descending)");
         Display.printList(manager.sortByEnrollmentDateDesc());
 
-        // ── 7. All unique course names ─────────────────────────────────────
-
         System.out.println("\nAll Available Courses");
         manager.getAllCourseNames().forEach(c -> System.out.println("  " + c));
 
-        // ── 8. All unique student names ────────────────────────────────────
-
+       
         System.out.println("\nAll Enrolled Students");
         manager.getAllStudentNames().forEach(s -> System.out.println("  " + s));
 

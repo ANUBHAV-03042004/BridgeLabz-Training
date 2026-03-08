@@ -7,12 +7,11 @@ public class Display {
 
     private static final String HEADER =
             String.format("%-20s %-35s %-18s %s", "Student", "Course", "Category", "Date");
-    private static final String LINE = "─".repeat(85);
 
     public static void printHeader(String title) {
         System.out.println("\n" + title);
         System.out.println(HEADER);
-        System.out.println(LINE);
+     
     }
 
     public static void printList(List<Enrollment> list) {
