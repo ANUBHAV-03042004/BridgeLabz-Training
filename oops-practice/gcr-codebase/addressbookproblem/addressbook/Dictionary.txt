@@ -1,0 +1,3 @@
+brain : [FirstName : d LastName : d address : d , City d , State d ZIP - 123456 phnNo. = 1234567890 Email@-> e]
+rt : [FirstName : a LastName : a address : a , City a , State a ZIP - 123456 phnNo. = 1345678909 Email@-> w]
+fry : [FirstName : a LastName : a address : a , City a , State a ZIP - 123456 phnNo. = 1234567890 Email@-> q]

@@ -19,6 +19,10 @@ A repository to track my **Java** journey and progress.
 
 🔗 [BridgeLabz-Training (solution-designing-practice)](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/solution-designing-practice)
 
+🔗 [BridgeLabz-Training (jdbc-and-dbms-practice)](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/jdbc-and-dbms-practice)
+
+🔗 [BridgeLabz-Training (multi-threading-practice)](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/multi-threading-practice)
+
 🔗 [BridgeLabz-Training (Reviews)](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/reviews)
 
 
@@ -101,6 +105,16 @@ $  **core-java-practice**
   
    ➡️ Uploaded solutions in the `encapsulationpolymorphisminterfaceandabstractclasss` folder
    🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/encapsulationpolymorphisminterfaceandabstractclass)
+
+ - 📍 **16/02/26 - 17/02/26**
+ 
+   ➡️ Implemented 4 layer architecture on `employee wage computation problem` and `address book problem`
+  
+   ➡️ Uploaded solutions in the `oops branch's employeewagecomputationproblemwith4layerarchitecture` folder
+    🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based/employeewagecomputationproblemwith4layerarchitecture)
+  
+   ➡️ Uploaded solutions in the `addressbookwith4layerarchitecture` folder
+   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/addressbookproblem/addressbookwith4layerarchitecture)
 
 
 $ **dsa-practice**
@@ -229,6 +243,18 @@ $ **collection-practice**
    ➡️ ParcelTracker – Delivery Chain Management Story
      🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/collection-practice/collection-practice/scenario-based/deliverychainmanagementsystem)
 
+- 📍 **06/02/26 - 09/02/26**
+ 
+   ➡️ Completed `SonarQube`
+  
+   ➡️ Uploaded solutions in the `collection branch's gcr-codebase's sonarqube` folder
+
+    
+   ➡️ Used for code quality checking and  to detect potential code smell
+  
+   ➡️ SonarQube
+    🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/sonarqube)
+   
 $ **io-programming-practice**
 
  - 📍 **20/01/26 - 21/01/26**
@@ -374,13 +400,45 @@ $ **solution-designing-practice**
    ➡️ Design Patterns
    🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/solution-designing-practice/gcr-codebase/designpatterns) 
 
+$ **multi-threading-practice**
+
+ - 📍 **05/02/26**
+ 
+   ➡️ Created multi-threading-practice
+  
+   ➡️ Uploaded solutions in the `multi-threading-practice branch's gcr-codebase` folder
    
+   ➡️ Multi-Threading
+   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/multi-threading-practice/multi-threading/gcr-codebase/multi-threading) 
+
+
+$ **jdbc-and-dbms-practice**
+
+ - 📍 **11/02/26 - 14/02/26**
+ 
+   ➡️ Created jdbc-and-dbms-practice
+  
+   ➡️ Uploaded solutions in the `jdbc-and-dbms-practice branch's gcr-codebase` folder
+   
+   ➡️ Used MySQL created models and uploaded .sql files.
+   
+   ➡️ Completed HealthClinic App
+   
+   ➡️ JDBC AND DBMS
+   🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/jdbc-and-dbms-practice/jdbc-and-dbms-practice/gcr-codebase/dbms) 
+
+
+
 $ **Reviews**  
 
  - 📍 **05/01/26**
   
    ➡️ Uploaded solutions of Review 1 in the `review's branch review1` folder
     🔗 [View Repository](https://github.com/ANUBHAV-03042004/BridgeLabz-Training/tree/reviews/reviews/review1)
+   
+ - 📍 **10/02/26**
+   
+   ➡️ Pen and Paper Mock Test
   
 ---
 
