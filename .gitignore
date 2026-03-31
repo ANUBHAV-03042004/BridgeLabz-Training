@@ -1,9 +1,12 @@
 
 
 /bin/
+
+.settings
+src
 .classpath
 .project
-.settings/
+README.md
 
 /target/
 *.log
@@ -11,7 +14,3 @@ jacoco.csv
 
 
 .git/
-
-/target/
-
-
