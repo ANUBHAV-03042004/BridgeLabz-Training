@@ -1,6 +1,16 @@
+
+
 /bin/
+
 .settings
 src
 .classpath
 .project
 README.md
+
+/target/
+*.log
+jacoco.csv
+
+
+.git/
