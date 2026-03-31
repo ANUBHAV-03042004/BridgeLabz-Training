@@ -1,6 +1,13 @@
+<<<<<<< HEAD
 .classpath
 .project
 .settings/
 .git/
 /bin/
 /target/
+=======
+/bin/
+.settings
+.project
+.classpath
+>>>>>>> 9246ee0937f54b20192b94278b9d14f746c7804a
