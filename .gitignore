@@ -1,4 +1,10 @@
+
 /bin/
 .classpath
 .project
-.settings
+.settings/
+
+.git/
+
+/target/
+
