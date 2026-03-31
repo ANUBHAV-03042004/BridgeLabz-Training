@@ -4,6 +4,7 @@
 
 .classpath
 .project
+
 /target/
 .settings
 .project
@@ -12,7 +13,6 @@
 
 src
 
-/target/
 *.log
 jacoco.csv
 
