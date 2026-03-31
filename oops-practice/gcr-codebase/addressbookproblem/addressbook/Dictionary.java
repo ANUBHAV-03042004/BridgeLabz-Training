@@ -1,0 +1,107 @@
+package addressbook;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
+public class Dictionary {
+    HashMap<String, AddressBook> dictionary = new HashMap<>();
+
+	
+    public AddressBook getAddressBook(String name) {
+        return dictionary.get(name);
+    }
+
+    public void addAddressBook(String name) {
+        if (dictionary.containsKey(name)) {
+            System.out.println("Address Book with this name already exists!");
+        } else {
+            dictionary.put(name, new AddressBook());
+            System.out.println("Address Book '" + name + "' created successfully.");
+        }
+    }
+
+	public void find(String person,String cityOrState) {
+		Stream<Map.Entry<String,AddressBook>> foundMatch = dictionary.entrySet().stream().filter(
+				entry -> entry.getValue().contacts.stream()
+		        .anyMatch(contact -> 
+		            contact.city.equalsIgnoreCase(cityOrState) ||
+		            contact.state.equalsIgnoreCase(cityOrState)));
+
+		foundMatch.forEach(entry -> {
+		    System.out.println(entry.getKey() + " -> ");
+		    entry.getValue().contacts.stream()
+		        .filter(contact -> 
+		            contact.city.equalsIgnoreCase(cityOrState) ||
+		            contact.state.equalsIgnoreCase(cityOrState)
+		        )
+		        .forEach(System.out::println);
+		});
+
+		
+	}
+
+	public void viewByCityOrState(String cityOrState) {
+		HashMap<String,List<Contact>> PersonByCity = dictionary.values().stream().flatMap(entry-> entry.contacts.stream()).filter(contact->
+			contact.city.equalsIgnoreCase(cityOrState)).collect(Collectors.groupingBy(contact -> contact.city,HashMap::new,Collectors.toList()));
+		
+		HashMap<String,List<Contact>> PersonByState = dictionary.values().stream().flatMap(entry-> entry.contacts.stream()).filter(contact->
+		contact.state.equalsIgnoreCase(cityOrState)).collect(Collectors.groupingBy(contact -> contact.state,HashMap::new,Collectors.toList()));
+	
+		
+		PersonByCity.forEach((city,contact)->{
+			System.out.println(city +": ");
+			contact.forEach(System.out::println);
+		});
+		
+		PersonByState.forEach((state,contact)->{
+			System.out.println(state +": ");
+			contact.forEach(System.out::println);
+		});
+		
+	}
+
+	public void CountByCityOrState(String cityOrState) {
+		long countbycity = dictionary.values().stream().flatMap(entry-> entry.contacts.stream()).filter(contact->
+		contact.city.equalsIgnoreCase(cityOrState)).count();
+		
+		if(countbycity > 0)System.out.println("Count By City :"+ countbycity);
+		else System.out.println("Count is  0 ");
+		long countbystate = dictionary.values().stream().flatMap(entry-> entry.contacts.stream()).filter(contact->
+		contact.state.equalsIgnoreCase(cityOrState)).count();
+		
+		if(countbystate > 0)System.out.println("Count By State :"+ countbystate);
+		else System.out.println("Count is  0 ");
+			
+	}
+
+	public void sortAlphabetically() {
+		for (AddressBook book : dictionary.values()) {
+			 Collections.sort(book.contacts,
+				        Comparator.comparing((Contact c) -> c.firstName, String.CASE_INSENSITIVE_ORDER)
+				                  .thenComparing(c -> c.lastName, String.CASE_INSENSITIVE_ORDER)
+				    );
+
+		}
+		dictionary.values().stream().forEach(System.out::println);
+		
+		
+	}
+// sort entries by city state or zip
+	public void sortByCityStateOrZip() {
+		for (AddressBook book : dictionary.values()) {
+			 Collections.sort(book.contacts,
+				        Comparator.comparing((Contact c) -> c.city, String.CASE_INSENSITIVE_ORDER)
+				                  .thenComparing(c -> c.state, String.CASE_INSENSITIVE_ORDER)
+				                  .thenComparingInt(c -> Integer.parseInt(c.zip)));
+
+		}
+		dictionary.values().stream().forEach(System.out::println);
+		
+		
+	}
+
+}
