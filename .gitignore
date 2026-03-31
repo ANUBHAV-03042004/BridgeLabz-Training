@@ -1,7 +1,17 @@
+
+
 /bin/
 .classpath
 .project
 .settings/
+
 /target/
 *.log
 jacoco.csv
+
+
+.git/
+
+/target/
+
+
